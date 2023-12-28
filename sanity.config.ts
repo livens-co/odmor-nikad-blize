@@ -3,7 +3,6 @@ import { deskTool } from "sanity/desk";
 import { visionTool } from "@sanity/vision";
 import { documentInternationalization } from "@sanity/document-internationalization";
 import schemas from "./sanity/schemas";
-import { internationalizedArray } from "sanity-plugin-internationalized-array";
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT!;
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;
@@ -13,7 +12,7 @@ const config = defineConfig({
   basePath: "/admin",
   title: "Odmor Nikad Bliže",
 
-  projectId: "fjui5y71",
+  projectId,
   dataset,
   apiVersion,
   useCdn: true,

@@ -1,7 +1,11 @@
+const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT!;
+const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;
+const apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION!;
+
 const config = {
-    projectId: "fjui5y71",
-    dataset: "production",
-    apiVersion: "2023-10-31",
+    projectId,
+    dataset,
+    apiVersion,
     useCdn: true,
   }
   
