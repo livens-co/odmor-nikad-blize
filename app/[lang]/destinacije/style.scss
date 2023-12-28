@@ -34,7 +34,23 @@
       max-width: 50rem;
       height: fit-content;
       padding: 3rem 2rem;
-      background-color: var(--secondary);
+      // background-color: var(--secondary);
+      background: rgb(13, 141, 96);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(13, 141, 96, 1) 30%,
+    rgba(14, 135, 139, 1) 95%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(13, 141, 96, 1) 30%,
+    rgba(14, 135, 139, 1) 95%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(13, 141, 96, 1) 30%,
+    rgba(14, 135, 139, 1) 95%
+  );
       border-radius: 1rem;
       display: flex;
       flex-direction: column;

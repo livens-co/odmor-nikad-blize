@@ -1,19 +1,27 @@
 .menuButton {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 5rem;
-    width: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--secondary);
-    cursor: pointer;
-    // margin: 0.15rem;
-    z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary);
+  cursor: pointer;
+  z-index: 1000;
+  gap: 0.35rem;
+  border-bottom-right-radius: 0.5rem;
 
-    svg {
-        font-size: 2rem;
-        color: var(--white);
+  div {
+    width: 1.75rem;
+    height: 0.2em;
+    background-color: var(--white);
+    border-radius: 1rem;
+
+    &:nth-child(2) {
+      margin-left: 0.5rem;
     }
+  }
 }

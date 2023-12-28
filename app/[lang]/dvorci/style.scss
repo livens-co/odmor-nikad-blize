@@ -57,6 +57,7 @@
       }
 
       .info {
+        width: 100%;
         display: flex;
         gap: 4rem;
 
@@ -81,7 +82,23 @@
           position: relative;
           gap: 1rem;
           padding: 3rem 2rem;
-          background-color: var(--secondary);
+          // background-color: var(--secondary);
+          background: rgb(13, 141, 96);
+          background: -moz-linear-gradient(
+            90deg,
+            rgba(13, 141, 96, 1) 30%,
+            rgba(14, 135, 139, 1) 95%
+          );
+          background: -webkit-linear-gradient(
+            90deg,
+            rgba(13, 141, 96, 1) 30%,
+            rgba(14, 135, 139, 1) 95%
+          );
+          background: linear-gradient(
+            90deg,
+            rgba(13, 141, 96, 1) 30%,
+            rgba(14, 135, 139, 1) 95%
+          );
           color: var(--white);
           border-radius: 0.75rem;
           overflow: hidden;
@@ -96,15 +113,13 @@
 
           .row {
             display: flex;
-         
+
             align-items: center;
 
             svg {
               font-size: 1.25rem;
               margin-right: 0.75rem;
             }
-
-            
           }
         }
       }

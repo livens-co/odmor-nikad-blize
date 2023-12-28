@@ -212,7 +212,7 @@ const HomePage: React.FC<HomePageProps> = async ({ params: { lang } }) => {
                 </div>
               </div>
             </Link>
-            <Link href={`/${lang}/destinacije/`} className="experienceCard">
+            <Link href={`/${lang}/gastronomija/`} className="experienceCard">
               <div className="imageContainer">
                 <Image
                   priority
@@ -228,7 +228,7 @@ const HomePage: React.FC<HomePageProps> = async ({ params: { lang } }) => {
                 </div>
               </div>
             </Link>
-            <Link href={`/${lang}/destinacije/`} className="experienceCard">
+            <Link href={`/${lang}/dan-u-zagrebackoj-zupaniji/`} className="experienceCard">
               <div className="imageContainer">
                 <Image
                   priority
@@ -244,7 +244,7 @@ const HomePage: React.FC<HomePageProps> = async ({ params: { lang } }) => {
                 </div>
               </div>
             </Link>
-            <Link href={`/${lang}/destinacije/`} className="experienceCard">
+            <Link href={`/${lang}/dvorci/`} className="experienceCard">
               <div className="imageContainer">
                 <Image
                   priority

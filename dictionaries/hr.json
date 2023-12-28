@@ -3,7 +3,14 @@
         "home": "Pocetna"
     },
     "menu": {
-        "homePage": "Početna"
+        "t1": "Početna",
+        "t2": "Kuće za odmor",
+        "t3": "Gradovi i općine",
+        "t4": "",
+        "t5": "Vinske ceste",
+        "t6": "Zanimljivosti",
+        "t7": "Dan u Zagrebačkoj",
+        "t8": "županiji"
     },
     "page": {
         "homeHeader": "Početna",

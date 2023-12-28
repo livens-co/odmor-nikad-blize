@@ -3,7 +3,14 @@
         "home": "Home"
     },
     "menu": {
-        "homePage": "Home"
+        "t1": "Home",
+        "t2": "Vacation Houses",
+        "t3": "Cities and",
+        "t4": "Municipalities",
+        "t5": "Wine Roads",
+        "t6": "News",
+        "t7": "Day in Zagreb",
+        "t8": "County"
     },
     "page": {
         "homeHeader": "Home",
@@ -65,7 +72,6 @@
         "l3": "HŽ Putnički prijevoz (Croatian Railway Company)",
         "l4": "Zagreb Bus Station",
         "l5": "More"
-        
     },
     "articlePage": {
         "featured": "Discover more",
@@ -148,7 +154,7 @@
         "r9t": "Seosko gospodrastvo 'Slavagora'",
         "r9p": "In the heart of the Samobor hills is Slavagora, a settlement that boasts of stunning views over the hilly landscape, the old Okic grad ruins, Zagreb and the surrounding areas. Here we find the Kuzmanović – Slavagora rural estate.  The house was built in line with the traditional architecture of the region, and tradition is also offered on the table, with excellent homestyle cuisine and wines, spirits and juices produced on site."
     },
-    "destinationPage":{
+    "destinationPage": {
         "d1": "Address",
         "d2": "Phone",
         "d3": "Website",

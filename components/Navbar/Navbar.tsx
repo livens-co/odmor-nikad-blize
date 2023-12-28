@@ -3,7 +3,6 @@
 import { useState } from "react";
 import "./style.scss";
 
-import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import Menu from "../Menu/Menu";
 import { Locale } from "@/i18n.config";
 import { useParams } from "next/navigation";
@@ -26,7 +25,9 @@ const Navbar: React.FC<NavbarProps> = () => {
   return (
     <>
       <div className="menuButton" onClick={() => setMenuOpen(!menuOpen)}>
-        <MenuRoundedIcon />
+        <div />
+        <div />
+        <div />
       </div>
 
       <Menu menuOpen={menuOpen} closeMenu={closeMenu} params={{ lang }} />

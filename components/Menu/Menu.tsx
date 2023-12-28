@@ -3,16 +3,15 @@
 import { Locale } from "@/i18n.config";
 import "./style.scss";
 
-import ArrowRightAltRoundedIcon from "@mui/icons-material/ArrowRightAltRounded";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
-import { getHouses } from "@/sanity/actions/get-houses";
-import getWineRoads from "@/sanity/actions/get-wine-roads";
+
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Article, House, WineRoad } from "@/types";
+
 import { getDictionary } from "@/lib/dictionary";
-import getArticles from "@/sanity/actions/get-articles";
+
+import logo from "../../public/logo/logo-bijeli.svg";
 
 interface MenuProps {
   menuOpen: boolean;
@@ -24,7 +23,14 @@ interface MenuProps {
 
 interface Dictionary {
   menu: {
-    homePage: string;
+    t1: string;
+    t2: string;
+    t3: string;
+    t4: string;
+    t5: string;
+    t6: string;
+    t7: string;
+    t8: string;
   };
 }
 
@@ -33,21 +39,11 @@ const Menu: React.FC<MenuProps> = ({
   closeMenu,
   params: { lang },
 }) => {
-  const [houses, setHouses] = useState<House[]>([]);
-  const [wineRoads, setWineRoads] = useState<WineRoad[]>([]);
-  const [articles, setArticles] = useState<Article[]>([]);
   const [dictionary, setDictionary] = useState<Dictionary | null>(null);
 
   useEffect(() => {
     async function fetchData() {
       try {
-        const housesData = await getHouses(lang);
-        const wineRoadsData = await getWineRoads(lang);
-        const articlesData = await getArticles(lang);
-        setHouses(housesData);
-        setWineRoads(wineRoadsData);
-        setArticles(articlesData);
-
         const dictionaryData = await getDictionary(lang);
         setDictionary(await dictionaryData());
       } catch (error) {
@@ -61,9 +57,53 @@ const Menu: React.FC<MenuProps> = ({
   return (
     <div className="menu" style={{ left: menuOpen ? "-100vw" : "0" }}>
       <div className="closeButton" onClick={closeMenu}>
-        <CloseRoundedIcon />
+        <div />
+        <div />
       </div>
-      <header>
+      <div className="links">
+        <Link href={`/${lang}/`} onClick={closeMenu}>
+          <h3>01</h3>
+          <p>{dictionary?.menu.t1}</p>
+        </Link>
+        <Link href={`/${lang}/kuce-za-odmor`} onClick={closeMenu}>
+          <h3>02</h3>
+          <p>{dictionary?.menu.t2} </p>
+        </Link>
+        <Link href={`/${lang}/destinacije`} onClick={closeMenu}>
+          <h3>03</h3>
+          <p>
+            {dictionary?.menu.t3}
+            <br />
+            {dictionary?.menu.t4}
+          </p>
+        </Link>
+        <Link href={`/${lang}/vinske-ceste`} onClick={closeMenu}>
+          <h3>04</h3>
+          <p>{dictionary?.menu.t5}</p>
+        </Link>
+        <Link href={`/${lang}/zanimljivosti`} onClick={closeMenu}>
+          <h3>05</h3>
+          <p>{dictionary?.menu.t6}</p>
+        </Link>
+        <Link href={`/${lang}/dan-u-zagrebackoj-zupaniji`} onClick={closeMenu}>
+          <h3>06</h3>
+          <p>
+            {dictionary?.menu.t7} <br />
+            {dictionary?.menu.t8}
+          </p>
+        </Link>
+      </div>
+
+      <div className="image">
+        <Image priority src={logo} alt="logo" width={400} height={400} />
+      </div>
+    </div>
+  );
+};
+export default Menu;
+
+{
+  /* <header>
         <h1>Odmor nikad bliže</h1>
         <h2>Turististička zajednica Zagrebačke županije</h2>
       </header>
@@ -141,8 +181,5 @@ const Menu: React.FC<MenuProps> = ({
             <ArrowRightAltRoundedIcon />
           </h3>
         </div>
-      </main>
-    </div>
-  );
-};
-export default Menu;
+      </main> */
+}

@@ -48,7 +48,23 @@
         flex-direction: column;
         justify-content: space-between;
         padding: 2rem;
-        background-color: var(--secondary);
+        // background-color: var(--secondary);
+        background: rgb(13, 141, 96);
+        background: -moz-linear-gradient(
+          90deg,
+          rgba(13, 141, 96, 1) 30%,
+          rgba(14, 135, 139, 1) 95%
+        );
+        background: -webkit-linear-gradient(
+          90deg,
+          rgba(13, 141, 96, 1) 30%,
+          rgba(14, 135, 139, 1) 95%
+        );
+        background: linear-gradient(
+          90deg,
+          rgba(13, 141, 96, 1) 30%,
+          rgba(14, 135, 139, 1) 95%
+        );
         color: var(--white);
         border-radius: 1rem;
         overflow: hidden;
