@@ -31,13 +31,13 @@ const ArticlePage: React.FC<ArticlePageProps> = async ({
 
   const article = await getArticle(lang, slug);
   const articles = await getArticles(lang);
-  // console.log(articles);
 
   return (
     <div className="articlePage">
-      <div className="header">
-        <div className="title">{article?.title}</div>
-        
+      <header>
+        <h1>{article?.title}</h1>
+      </header>
+      <main>
         <div className="featuredImage">
           <Image
             priority
@@ -47,57 +47,60 @@ const ArticlePage: React.FC<ArticlePageProps> = async ({
             alt={article?.title}
           />
         </div>
-      </div>
-      <article>
-        <PortableText
-          value={article?.content}
-          components={RichTextComponents}
-        />
-      </article>
+        
+        <div className="line" />
+        
+        <article>
+          <PortableText
+            value={article?.content}
+            components={RichTextComponents}
+          />
+        </article>
 
-      {/* GALLERY */}
-      {article?.images === null ? null : (
-        <div className="gallery">
-          <Gallery images={article?.images} />
-        </div>
-      )}
+        {/* GALLERY */}
+        {article?.images === null ? null : (
+          <div className="galleryContainer">
+            <Gallery images={article?.images} />
+          </div>
+        )}
 
-      {/* FOOTER */}
+        {/* FOOTER */}
 
-      <div className="articleFooter">
-        <Link href={`/${lang}/zanimljivosti`} className="articlesBtn">
-          {t.articlePage.button}
-        </Link>
-        <div className="featuredArticles">
-          <h1>{t.articlePage.featured}</h1>
-          <div className="articles">
-            {articles
-              .map((a) => (
-                <div className="articleCard" key={a.slug}>
-                  <Link
-                    href={`/${lang}/zanimljivosti/${a.slug}`}
-                    className="articleImage"
-                  >
-                    <Image
-                      src={a.headerImage}
-                      alt={a.title}
-                      width={356}
-                      height={150}
-                      priority
-                    />
-                  </Link>
-                  <Link
-                    href={`/${lang}/zanimljivosti/${a.slug}`}
-                    className="articleTitle"
-                  >
-                    <h3>{a.title}</h3>
-                  </Link>
-                </div>
-              ))
-              .slice(0, 2)}
+        <div className="articleFooter">
+          <Link href={`/${lang}/zanimljivosti`} className="articlesBtn">
+            {t.articlePage.button}
+          </Link>
+          <div className="featuredArticles">
+            <h1>{t.articlePage.featured}</h1>
+            <div className="articles">
+              {articles
+                .map((a) => (
+                  <div className="articleCard" key={a.slug}>
+                    <Link
+                      href={`/${lang}/zanimljivosti/${a.slug}`}
+                      className="articleImage"
+                    >
+                      <Image
+                        src={a.headerImage}
+                        alt={a.title}
+                        width={356}
+                        height={150}
+                        priority
+                      />
+                    </Link>
+                    <Link
+                      href={`/${lang}/zanimljivosti/${a.slug}`}
+                      className="articleTitle"
+                    >
+                      <h3>{a.title}</h3>
+                    </Link>
+                  </div>
+                ))
+                .slice(0, 2)}
+            </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   );
 };
