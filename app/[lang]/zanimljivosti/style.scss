@@ -1,0 +1,115 @@
+.newsPage {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  padding-bottom: 4rem;
+
+  header {
+    height: 5rem;
+    padding-left: 6rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    h1 {
+      font-weight: 400;
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    padding: 2rem;
+    gap: 2rem;
+
+    .articlesGrid {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4rem 2rem;
+      justify-items: center;
+      align-content: center;
+      padding: 2rem 0;
+
+      .articleCard {
+        width: 20rem;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+
+        .articleImage {
+          width: 100%;
+          height: 11rem;
+          margin-bottom: 1rem;
+          border-radius: 0.5rem;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 300ms ease;
+          }
+
+          &:hover {
+            img {
+              transform: scale(1.05);
+            }
+          }
+        }
+
+        .articleTitle {
+          font-weight: 500;
+          font-size: 1.15rem;
+        }
+
+        
+      }
+    }
+
+    .pagination {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      // margin-top: 4rem;
+  
+      .navibationBtn {
+        padding: 0.5rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.1em solid var(--secondary);
+  
+        svg {
+          font-size: 1rem;
+          color: var(--secondary);
+        }
+      }
+  
+      .pageBtn {
+        height: 2.15rem;
+        width: 2.15rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.1em solid var(--secondary);
+        
+      }
+  
+      .activePageBtn {
+        background-color: var(--secondary);
+        color: var(--white);
+      }
+    }
+  }
+}

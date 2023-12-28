@@ -1,0 +1,161 @@
+{
+    "navigation": {
+        "home": "Home"
+    },
+    "menu": {
+        "homePage": "Home"
+    },
+    "page": {
+        "homeHeader": "Home",
+        "homeContent": "Welcome to the best place to find your next home"
+    },
+    "homePage": {
+        "header": "HomePage",
+        "content": "homepage"
+    },
+    "housesPage": {
+        "header": "Vacation Houses",
+        "content": "First of all, travelling is an escape from a familiar routine, and holiday is rest and relaxation in a safe and pleasant environment. On top of that, imagine having a whole house and a garden just for yourself, without having to travel far – it sounds like a perfect combination. Our upper-class ancestors used to have country houses and spend their weekends there. There's no reason not to follow their example today. Tucked away in Zagreb's green surroundings, there are comfortable holiday houses made to become the new countryside paradise. They offer privacy, peace and quiet, freedom, beautiful nature and idyllic rural landscape – life far more simple than the one you know. Even though it sounds like a dream in these turbulent times, tailor-made holiday to suit your own needs has never been closer."
+    },
+    "housePage": {
+        "featured": "Discover more",
+        "amenities": "Amenities",
+        "web": "Website"
+    },
+    "wineRoadsPage": {
+        "header": "Wine roads",
+        "content": "The Zagreb surroundings form a beautiful necklace around the capital city. There are few European metropolitan cities that can boast of such natural beauty, such diversity, such historical and cultural wealth in its midst. The most distinctive features of this region are certainly its vineyards and wineries. Zagreb County, one of the best wine-growing regions in the country, encircles Zagreb in the shape of a real lucky horseshoe. Furthermore, the county is the top national producer of grapes and wines. The natural features, soil, sun and climate, but most of all the worthy hands of the grape-growers and wine-makers, their knowledge, experience, persistence and love for their work, is nurtured here. The result is a range of noble wines that are enjoyed by both choosy enologists and “ordinary” wine lovers. There are vineyards in almost the very heart of Zagreb, with some vines only a few hundred metres from the main city traffic arteries. Many Zagreb residents are passionate wine-growers and wine-makers. Though usually only they themselves, friends and family can enjoy the drops made in their cellars and wine huts due to the small quantity produced, an extra bottle or two occasionally finds its way to local restaurants. Larger wineries making greater quantities and having a reputed name on the market are present in the areas of Samobor, Jastrebarsko, Sveti Ivan Zelina, Vrbovec…"
+    },
+    "newsPage": {
+        "header": "News"
+    },
+    "destinationsPage": {
+        "header": "Destinations",
+        "content": "Picturesque places with a peaceful rhythm of life, fruitful land and leafy villages, plenty of natural beauty. If you combine rich history, proudly preserved heritage, superb home-made, local cuisine, authentic wines and sincere hospitality, you will get the surroundings of Zagreb. Situated as a green natural ring of the city of Zagreb, far away from the hustle and bustle of the metropolis, the Zagreb County is always close enough. Get to know nine cities of Zagreb County!",
+        "link": "Zagreb County Interactive Locator",
+        "city": "Cities",
+        "municipality": "Municipalities"
+    },
+    "digitalNomadsPage": {
+        "header": "Digital nomads",
+        "t1": "Who are the digital nomads?",
+        "p1_1": "A digital nomad is an entrepreneur or employee who uses digital technologies almost exclusively to do their job. At the same time, he is independent and leads life in several places. Digital nomads usually work on the road and mostly where there is internet.",
+        "p1_2": "With various countries now looking to attract digital nomads, Croatia has expanded its short-term residency permits to include travelers from outside the European Union.",
+        "p1_3": "The applicants must work remotely for a company that isn't registered in Croatia and doesn't perform work or provide services to employers there. Temporary stays are granted for up to a year, and close family members may join them there. Applicants from countries whose citizens are required to hold a visa to enter Croatia must submit their application abroad at one of the country's diplomatic missions or consular posts. Those who are not required to hold a visa can submit their application at a diplomatic mission, consular post or police administration or police station relevant to their temporary residence address.",
+        "p1_4": "They must not have a criminal record and are required to enclose a copy of a valid travel document, proof of health insurance and a contract of employment or other document proving their work arrangements. They must also provide proof of means of subsistence during their stay, and submit a bank statement or proof of regular income to their account in which they must have a minimum of HRK28,800 (€3802) available for a period of 12 months.",
+        "t2": "Explore Zagreb County as a digital nomad",
+        "p2": "The wonderful world of digital nomads and the new age allows you to stay and work in Croatia for up to a year and explore all the natural and cultural beauties of the country. Apart from the proximity of the capital, Zagreb County offers you picturesque places with a peaceful rhythm of life, gentle and fertile villages, plenty of natural beauty ... Add traces of long history, proudly preserved heritage, rich local cuisine, authentic wines. So, add sincere hospitality to everything and you get the surroundings of Zagreb. For those who take up the short-term residency permit, Zagreb County has a rich cultural legacy with excellent museums, and outdoor-lovers will enjoy Nature park Žumberak, which offers numerous hiking and biking trails.",
+        "t3": "How to get there?",
+        "l1": "Public transportation and parking",
+        "l2": "Zagrebački električni tramvaj (Zagreb Electric Tram Company)",
+        "l3": "HŽ Putnički prijevoz (Croatian Railway Company)",
+        "l4": "Zagreb Bus Station",
+        "l5": "More"
+        
+    },
+    "articlePage": {
+        "featured": "Discover more",
+        "button": "See more"
+    },
+    "castlesPage": {
+        "header": "Fairytale castles",
+        "web": "Website"
+    },
+    "dayInPage": {
+        "header": "Day in Zagreb County",
+        "tc1": "Spend an unforgettable weekend in the Zagreb County – visit ZaprešIć, Sveta Nedelja and Samobor, discover the natural heritage of Žumberak and taste the wines of Plešivica winemakers",
+        "tc2": "Spend the day in the royal wine growing region, find out ‘what our old folks were eating’ and take a break in the countryside",
+        "tc3": "Spend the day by discovering the culture of Turopolje and the nature of Pokuplje",
+        "zapresicT": "Zaprešić",
+        "zapresicP": "Zaprešić and the surrounding areas offer several interesting tourist destinations: 5 castles (Lužnica, Januševec, Laduč, Gornja Bistra, Jakovlje), churches, flora and fauna reserves, excellent cuisine and traditional events (Jelačić Days in May and October). The main attractions are New Jelačić palace a unique monument of cultural and historic heritage only 1,5 km from the town centre (some 20 km from Zagreb). Zaprešić is also a city of sports - football, handball, basketball, bowling, equestrian sports and horseback riding, paragliding, kite flying, cycling, tennis and a golf course with three PAR 3 fields.",
+        "zapresicTM": "Don’t miss...",
+        "zapresicPM": "Lužnica Mansion, a one-storey baroque building. It was built in the early 18th century. It used to be owned by the Rauch family. The mansion has three wings, and is U shaped. Angle towers are of cylindrical shape. Above the main entrance overlooking the park there is a large balcony. Façade features different busts in relief. The mansion chapel has a rococo style altar. It is a zero cathegory monument. The Center is run by Sisters of Charity of St. Vincent de Paul and its open to the public.",
+        "svNedeljaT": "Sveta Nedelja",
+        "svNedeljaP": "On your way towards the most popular excursion destination of Zagreb citizens - Samobor you will pass by the youngest town in the Zagreb County, Sveta Nedelja. It is a favourite destination of many visitors due to numerous sports and recreational facilities and lakes (cycling and hiking trails, lake fishing, canoeing, and paintball). In Sveta Nedelja is also the Erdödy Castle in Kerestinac, the Renaissance Baroque fortress built by the Count Family Erdödy and the parish church of the Holy Trinity which is located in the centre of the town.",
+        "svNedeljaTM": "Did you know...",
+        "svNedeljaPM": "Sveta Nedelja Kraluš is a variation of the luxurious, traditional, woven women's necklace that is commonly seen in continental Croatia, though it differs in its size, ornamentation and colours. Also called the kraluž or kragulj, it started to appear in the Sveta Nedelja region in the 19th century, and with time, became a customary part of the jewellery of the women's folk costume. It is worn around the neck on a kraglin, a collar of white folded lace, with various ornaments in different colours. The glass or coral small beads are strung onto eight strands of white horse hair. In more modern times, the threads are plastic fibres. The kraluš is typically made in red, but can also be in the traditional tricolour (red, white, blue). The kraluš is tied behind the neck with a red satin ribbon.",
+        "samoborT": "Samobor",
+        "samoborP1": "Samobor is a picturesque town with a long history, rich cultural heritage and attractive surroundings with a preserved old town centre and it is located on the eastern slopes of the Samobor Mountains, at the entrance of the romantic valley of the Gradna stream. The walk around the town begins with a tour of the old town around King Tomislav Square (all buildings on the Square are decorated in Late Baroque, Classicist or Art Nouveau style and the monuments are protected). Nearby are the parish church of St. Anastasia, a rare early-baroque church in Croatia, Livadić's castle where Samobor Museum is today. Promenade along the Gradna stream leads to the beginning of the Old Town of Samobor, which was built by the Czech king Otokar in 1268. In Otruševac you can visit one of the most beautiful caves of northwestern Croatia and meet all the beauties of the underground world of Grgos cave, and in the mines of St. Brabara in Rude you can find out the story of mythical creatures called Bergmans, the tough mining life and the tradition of this area. Samobor's gastronomic tradition is rich and diverse. In the numerous Samobor facilities and farms you can taste traditional gastronomic specialties: the famous Samobor kremšnita pastry, the traditional Samobor aperitif Bermet, Samobor salami, „muštrada“ and mining „Greblicka“, the indigenous cake which was given the mark of geographic origin and thus it became the first protected gastronomic product in the Zagreb County.",
+        "samoborP2": "As a souvenir and to remember this county's tourist pearl, the Samobor craftsmen made their valuable handmade traditional souvenirs for you: hand-cut, crystals, „licitar“ or gingerbread. Samobor is an ideal destination for active vacation and mountain adventure and it offers numerous cycling, hiking, hiking and jogging routes. The entire touristic offer of Samobor is enriched many traditional events. The most famous is the Samobor fašnik and it is one of the most attractive and largest events in this part of Croatia. Scaffolding in Medsava is the fastest route between Samobor and Zaprešić and an ideal opportunity to spice the journey through the unusual transition of Sava because the scaffolding in Medsava is an unusual reminder of old but practical traffic times.",
+        "samoborTM": "Did you know...",
+        "samoborPM": "Barbara of Celje, known in the legends as the Black Queen, was the mistress of the Old Town. Whatever she wanted, she received. Legend has it that she was merciless towards her former lovers. She likely received her reputation as an evil and cruel woman because she practiced alchemy, and there are records of her as an alchemist. She was mentioned by the Czech alchemist Johann von Laaz in his work Via universalis and by Bazilia Valentin in the introduction to the seventh edition of the work Chymische Schriften from 1717. Krištofor Erdődy lost the Samobor Old Town in a hand of cards in Genoa. In 1777, the Old Town was awarded by a court ruling to the winner of a card game that lasted for 32 years.",
+        "jastrebarskoT": "Jastrebarsko",
+        "jastrebarskoP": "You can pass the Samobor mountains to get to Jasterbarsko, a town which was named after the „Jastrebars“, medieval breeders of hunting birds, hawks and falcons and since the ancient times, in it´s coat of arms is a hawk. Go to the Plešivica Wine Road where, besides the autochthonous varieties such as „purtugizec“, „plavec žuti“, „slatki zelenac“ and „šipelj“, you can taste world-famous varieties of wines such as Chardonnay, Rhine Riesling, Sauvignon, Trammin and Black, White and Gray Pinot. You can expect local traditional food in one of the restaurants that is the holder of the 'Flavours of the Zagreb region' standard with a compulsory tasting of plešivički copanjek - traditional autochthonous salty pie. In the centre of Jastrebarsko, walk through the beautifully landscaped garden of Erdody Castle, visit the City Museum and Gallery, which are located in the representative building of the old town hall built in 1826. The museum maintains the archaeological, cultural, historical and ethnographic heritage of the Jakan region. You can also look at the bauble collection of the Golub family, which is conceived as a permanent exhibition stand on the ground floor of an old house. Feel the spirit of old times and go to Mlinareva Iža, the original miller's house in which a miller's family once lived. The sacral heritage is made up of numerous churches and chapels of the jaskan region that devotes attention from every passerby. Jastrebarsko is an ideal destination for active tourism and nature lovers. Explore each corner by bike, on foot or by air, as there are numerous possibilities: cycling trails and routes, hiking, horse riding, cross-country running, motocross, and for those who want adrenaline - paragliding from Japetić or Plešivice.",
+        "jastrebarskoTM": "Did you know...",
+        "jastrebarskoPM1": "Charlie Chaplin travelled from Vienna to Trieste in 1932 and stayed in the guesthouse Vila Horvat, which is still in the centre of the village of Plešivica",
+        "jastrebarskoPM2": "years before Charlie Chaplin on Plešivica was also Isadora Duncan",
+        "jastrebarskoPM3": "Plešivica is the oldest sledging trail in Croatia! The sledding tradition on Plešivica is over a hundred years old. On the legendary track Kamenica sledding was started back in 1907, and the tradition continued to this day, mainly thanks to enthusiasts who organized races all these years. On a 350m long trail, in January, the popular sledding cup Plešivica is traditionally organized.",
+        "svIvanZelinaT": "Sveti Ivan Zelina",
+        "svIvanZelinaP": "Sveti Ivan Zelina is located at the position where the slopes of Zagrebačka gora are gently descending to Prigorje region, in the area characterized by highlands with peaks of approx. 500 meters above sea level, the most prominent being Kladešćica, which gradually and gently, through lower slopes and ravines, are crossing to the lowland are of the river Lonja. Sveti Ivan Zelina is especially famous for its numerous vineyards and the production of quality wines. Especially interesting for tourism is Zelina wine road passing through the wine-growing areas of Zelina. In addition to the magnificent views of the vineyards, you will enjoy the friendly hosts and excellent wines produced for the world’s most famous grape varieties. Special attention is given to the queen of Prigorje - kraljevina, which is autochthonous and most widespread in the Prigorje region. Kraljevina Zelina is also the wine brand of Zagreb County, and the wine is soft, smooth and refreshing.",
+        "svIvanZelinaTM": "City of knights",
+        "svIvanZelinaPM": "Become a knight and go back to the Middle Ages for one day. The Knights of Zelingrad are an organization that has been studying and presenting the Middle Ages for years: the way of life, cuisine, arms, knights’ tournaments and old crafts. The International Knights Tournament is organized every year in June and so you can experience the siege of the city, engage in sword fighting and archery and taste medieval delicacies.",
+        "vrbovecT": "Vrbovec",
+        "vrbovecP": "The gentle Vrbovec countryside is a beautiful, hilly area, and in the north and northeast is the lowland area of Lonja, Glogovnica and Česma valleys. The Vrbovec fortress was first mentioned in 1528, the fortress was built for defence against the Ottomans. Later it was the property of noble families Zrinski, Erdödy, then again Zrinski, Patačić and others. Zrinski Tower is a two-storey tower with a conical roof made of brick. The locals call it the Zrinski Tower in memory of Ban Petar Zrinski who was born in Vrbovec in the 17th century.",
+        "vrbovecTM": "“What our old folks were eating”",
+        "vrbovecPM": "Taste the flavours of the past at the traditional event that is organized for nearly 40 years in the last weekend in August. 'What our old folks were eating' is a unique tourist and culinary event and tasting-sale exhibition attracting more and more visitors, and it is organized every year at the end of August. Ancient national dishes are a part of the national identity, and the event makes it possible to maintain this tradition and to provide new admirers for old dishes and recipes. Do not miss to try Vrbovečka pera, the most famous traditional cake of the region, and its recipe was passed down from generation to generation.",
+        "ivanicT": "Ivanić-Grad",
+        "ivanicP": "In the fertile plain, rich in water, as well as on the gentle wine-growing slopes and hills of Moslavačka Gora, there are 56 settlements, including the largest and most famous ones, Ivani-Grad, Kloštar Ivani and Križ. In the past, the region was named Otok (Island) owing to the rivers Glogovnica, Lonja and Česma that surround it, and the river Sava is also near. The area of Otok Ivanić is actually the peripheral area of the alluvial Pannonian Basin, and its remains are deposits of oil and gas. What makes this area unique in Europe, and beyond, are certainly the rare sources of mineral oil, naphthalene and the rich geothermal wells of natural brine, and they are closely related to the renowned spa 'Naftalan'.",
+        "ivanicTM1": "Picturesque villages",
+        "ivanicPM1": "Besides its natural beauty, Otok Ivanić will reveal the rich historical and cultural heritage to hikers. Almost every preserved chapel is an example of wonderful rural baroque. The imaginative decorations on old wooden houses also deserve admiration, and the charm of Posavina architecture can especially be enjoyed in the picturesque villages along the river Sava. Especially interesting is the ethno-village Vezišće, the birthplace of opera prima donna Milka Trnina. A trip to the countryside is the perfect getaway and a short break from the hectic life. Nature and traditional cuisine are a perfect pairing for relaxation. If you want to escape to the countryside, visit the country estate Kezele, with wooden houses, approximately 100 years old, furnished for visitors and there it is possible to enjoy dishes from the local cuisine and wines from their own cellar. The experience of a true rural homestead is completed with the beautiful view of the vineyards, a barn with farm animals and an ethnographic collection with wonderful antiques. The educational trail in Marča forest is located in the immediate vicinity, it is suitable for hikers, parents with children and recreationists.",
+        "ivanicTM2": "„Pumpkin” city",
+        "ivanicPM2": "The perfect time to visit Ivanić-Grad is in October, when the most cheerful and most visited traditional, tourist-economic and gastronomic event Bučijada (Pumpkin Festival) is organized. The backbone of the event is the sales fair of pumpkins, pumpkin seed oil, pumpkin products and other eco-ethno products, with more than 200 exhibitor presenting their products.",
+        "tc": "Turopolje is the cultural and historical micro-region in central Croatia, south of the capital city of Zagreb. In the heart of Turopolje the town Velika Gorica has been developed, surrounded by centuries-old forests, the rivers Odra, Kupa and Sava, lakes and gentle Vukomeričke gorice. Pokuplje area near the river Kupa is particularly attractive for the beautiful nature and its cleanliness, which enables a range of activities from sports to economic.",
+        "t1": "Active vacation",
+        "p1": "Velika Gorica with its large network of pedestrian and cycling trails, as well as the entire Turopolje from Posavina to Pokupsko, is the ideal place for cycling and recreational enjoyment of families with children. In the city area, cyclists can enjoy 35 kilometers of well-designed bicycle trails which stretch along the main city road and bypass, as well as in the direction towards the capital. In addition to cycling, you can also enjoy a nine-kilometer long Šumarica educational trail.",
+        "t2": "Cuture and history",
+        "p2": "The special and unique value of Turopolje is captured by a wooden chapel and noble manor, the so-called Turopolje beauty. The area is rich in oak, which also enabled the famous construction of sacral and other wooden objects, and the old 'Turkish' oak tree, near Velika Gorica, is a specially protected object - a monument of nature. 11 wooden churches and chapels in this area represent the highest range of folk architecture of Baroque architecture in the northern part of Croatia, and the most famous of them is the Chapel of St. Barbara. You can find out about the richness and history of this area if you visit the Museum of Turopolje, located in the 18th century building in the very center of Velika Gorica. In addition to the wooden chapels, you can also visit the Old Town Lukavec - a defensive fortress that was first mentioned in the year 1256. The legend says that in this area were held witch trials, and evidence is also a 'coprnički' prison located on the ground floor of the fortress.",
+        "tM1": "Are you interested in archaeology?",
+        "pM1": "In the 1st century BC, the Roman conquest of Pannonia began, and the wealth of Roman archaeological sites is located throughout Croatia, one of which is the ancient Roman town of Andautonia, which experts call 'Roman Zagreb'. It is located right next to Velika Gorica, where there is also an open Archeological park where you can see parts of the Roman city: the Roman street, the public bath and the two buildings, which provide insight into the Roman necropolis.",
+        "tM2": "How it used to be",
+        "pM2": "Near the mouth of the Kupčine stream near Kupa lies a larger village Donja Kupčina. In the village, for years, the love for preserving the cultural heritage has been nurtured, which confirms the establishment of its own open –air (the second largest in Croatia) Donja Kupčina's native museum. In the area of the Museum there is an extremely interesting collection of country houses: wooden houses and chalets, together with economic facilities, and exposed ethnographic objects.",
+        "t3": "Gastro offer",
+        "p3": "A good idea for a short trip is certainly the large number of excursion sites and restaurants in which you can enjoy in the peaceful nature, with fine home-made lunch and numerous activities for the younger ones throughout the year. Visit the Roads of Cheese, the production of cheeses in this area has a very long tradition. Today, this area is known for various types of dairy products and cheeses such as cheese and cream, then cheeses as they are traditionally produced - fresh, boiled, smoked and with various spices."
+    },
+    "gastroPage": {
+        "header": "Gastronomy",
+        "text": "The phrase “from the farm to the table” is not just a modern trend in Zagreb County. It is, and always has been, a way of life. And the table is by no means small. The Green Ring surrounding Zagreb is primarily a rural region; the food from these fertile fields has always reached Zagreb. A good portion of the best known and loved traditional recipes originated here, in these villages, from ingredients that were always nearby and available, as the hardworking hands turned them into simple everyday dishes or family feasts. Eggs, dairy products, flour, semolina, seasonal fruits and vegetables from the garden, less often meat – these form the foundation of the homestyle cuisine of Zagreb County. The entire region, including Prigorje, Moslavina, Turopolje, Jastrebarsko, Samobor and Zaprešić, all nurture a similar culinary identity, though each of these areas have their own distinctive, local delicacies. The restaurants and households of Zagreb County respect tradition, and are waiting to tell their story on your plate – it is up to you to visit them and explore.",
+        "link": "Read more",
+        "r1t": "Kod špilje",
+        "r1p": "Also known as Grgos, named after its owner, this restaurant like its name (kod špilje = eng. by the cave) stands literally next to the cave at Otruševec and is a beloved weekend destination for the city dwellers. Here you can find excellent continental cuisine based on local ingredients, with a high-end approach. Rural elegance in the very best sense, in a peaceful, green environment and cosy atmosphere.",
+        "r2t": "Gabrek 1929.",
+        "r2p": "The number in the name does in fact refer to the year of establishment. That’s a lot of tradition, and the Gabrek team have the local cuisine down perfectly. The emphasis is on meat and mushrooms, and if you’ve always wanted to know what a lavish Samobor family lunch looks like, you’ve come to the right place. Don’t miss out on trying the mushroom soup.",
+        "r3t": "Restoran Karlo",
+        "r3p": "The proud owner of a terrace that might just have the most beautiful view over the Plešivica vineyards, Karlo is the crème de la crème of the Plešivica restaurant scene. Don’t let the rustic wooden house fool you – everything that comes into the kitchen is fresh and local, and the plates coming out of the kitchen are masterfully prepared and a delight both to see and to taste.",
+        "r4t": "Zeleni papar",
+        "r4p": "A popular choice for Sunday lunch or family celebrations, Zeleni papar (eng. green pepper) is known for preparing Croatian classic cuisine with an emphasis on local and seasonal ingredients. Not a slave to trends, this restaurant confidently blazes its own path, and the hospitality of the hosts brings guests back time after time.",
+        "r5t": "Restoran Potkova – Trajbar team",
+        "r5p": "The Potkova (eng. horseshoe) restaurant is situated in the midst of the large and elegant equestrian estate near Zaprešić. The ambiance, service and classic cuisine rise high above its rural surroundings, making guests feel like the aristocracy at their country homes of times past.",
+        "r6t": "Ljubekov gaj",
+        "r6p": "Imagine a peaceful, rural estate on a hilltop, the warmth of wood, homestyle cuisine paired with wines from the family vineyard, a spacious courtyard – this is Ljubekov gaj. This is a place to visit just as much for the atmosphere and peaceful ambiance as for the delicious, generous portions of rustic dishes.",
+        "r7t": "Restoran Ivančić",
+        "r7p": "On the wine-growing hills of Plešivica is this family restaurant that features a combination of traditional and modern hospitality, with stunning views. The culinary experience is rounded out with wines produced on site.",
+        "r8t": "Mon Ami",
+        "r8p": "One might not expect a top quality, old school seafood restaurant in Velika Gorica, but that’s exactly what Mon Ami is. Featuring both Adriatic and continental delicacies, the Michelin guide has rewarded its long tradition and excellent quality with its recommendation.",
+        "r9t": "Seosko gospodrastvo 'Slavagora'",
+        "r9p": "In the heart of the Samobor hills is Slavagora, a settlement that boasts of stunning views over the hilly landscape, the old Okic grad ruins, Zagreb and the surrounding areas. Here we find the Kuzmanović – Slavagora rural estate.  The house was built in line with the traditional architecture of the region, and tradition is also offered on the table, with excellent homestyle cuisine and wines, spirits and juices produced on site."
+    },
+    "destinationPage":{
+        "d1": "Address",
+        "d2": "Phone",
+        "d3": "Website",
+        "d4": "Distance from Zagreb",
+        "t": "Tourist attractions"
+    },
+    "footer": {
+        "c1t": "Zagreb County",
+        "c1l1": "News",
+        "c1l2": "Interactive Map",
+        "c1l3": "About Us",
+        "c1l4": "Contact",
+        "c2t": "Guide",
+        "c2l1": "Vacation Houses",
+        "c2l2": "Cities and Municipalities",
+        "c2l3": "Wine Roads",
+        "c2l4": "Castles",
+        "c3t": "Experience",
+        "c3l1": "Gastronomy",
+        "c3l2": "Digital nomads",
+        "c3l3": "Day in Zagreb County",
+        "c4t": "Social Media"
+    }
+}

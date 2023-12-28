@@ -1,0 +1,11 @@
+.rtcImage {
+  height: 20rem;
+  width: 30rem;
+  position: relative;
+
+  img {
+      height: 100%;
+      width: auto;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,360 @@
+.homePage {
+  min-height: 100vh;
+  width: 100%;
+  //   margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  header {
+    width: 100%;
+    height: 40rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      filter: brightness(0.8);
+    }
+
+    .heroLinks {
+      width: 100%;
+      max-width: 1000px;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+
+      .linkContainer {
+        width: 12rem;
+        height: 13rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        border: 0.1em solid #fff;
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        padding: 1rem;
+
+        img {
+          top: 0;
+          left: 0;
+          position: absolute;
+          width: 12rem;
+          height: 13rem;
+          object-fit: cover;
+          filter: brightness(0.8);
+        }
+
+        h1 {
+          position: relative;
+          color: #fff;
+          font-weight: 700;
+          font-size: 1.5rem;
+          flex-wrap: wrap;
+          width: 80%;
+          line-height: 1.2;
+        }
+      }
+    }
+  }
+
+  section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .innerContainer {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5%;
+    position: relative;
+
+    .title {
+      font-weight: 400;
+      font-size: 2rem;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      padding-left: 0.5rem;
+    }
+
+    .innerContainerRow {
+      display: flex;
+
+      .mainColumn {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        // position: relative;
+
+        .mainArticle {
+          display: flex;
+          flex-direction: column;
+
+          .articleImage {
+            position: relative;
+            width: 100%;
+            height: 20rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+            overflow: hidden;
+
+            img {
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
+              transition: all 300ms ease;
+            }
+
+            &:hover {
+              img {
+                transform: scale(1.05);
+              }
+            }
+          }
+
+          .articleTitle {
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+          }
+
+          .articleLink {
+            margin-top: 0.75rem;
+            font-weight: 300;
+            font-size: 0.9rem;
+            width: fit-content;
+            // text-transform: uppercase;
+            // letter-spacing: 0.15em;
+            position: relative;
+            color: var(--secondary);
+            text-decoration: none;
+
+            &::after {
+              content: "";
+              position: absolute;
+              width: 100%;
+              transform: scaleX(0);
+              height: 0.075em;
+              bottom: -2px;
+              left: 0;
+              background-color: var(--secondary);
+              transform-origin: bottom right;
+              transition: transform 300ms ease-out;
+            }
+
+            &:hover::after {
+              transform: scaleX(1);
+              transform-origin: bottom left;
+            }
+          }
+        }
+      }
+
+      .sideColumn {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 2rem;
+        gap: 2rem;
+
+        .sideArticle {
+          width: 22rem;
+          height: fit-content;
+          display: flex;
+          flex-direction: column;
+
+          .sideArticleImage {
+            width: 100%;
+            height: 11rem;
+            margin-bottom: 1rem;
+            border-radius: 0.5rem;
+            overflow: hidden;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              transition: all 300ms ease;
+            }
+
+            &:hover {
+              img {
+                transform: scale(1.05);
+              }
+            }
+          }
+
+          .sideArticleTitle {
+            font-weight: 700;
+            font-size: 1.15rem;
+          }
+
+          .sideArticleLink {
+            margin-top: 0.75rem;
+            font-weight: 300;
+            font-size: 0.9rem;
+            width: fit-content;
+            // text-transform: uppercase;
+            // letter-spacing: 0.15em;
+            position: relative;
+            color: var(--secondary);
+            text-decoration: none;
+
+            &::after {
+              content: "";
+              position: absolute;
+              width: 100%;
+              transform: scaleX(0);
+              height: 0.075em;
+              bottom: -2px;
+              left: 0;
+              background-color: var(--secondary);
+              transform-origin: bottom right;
+              transition: transform 300ms ease-out;
+            }
+
+            &:hover::after {
+              transform: scaleX(1);
+              transform-origin: bottom left;
+            }
+          }
+        }
+      }
+    }
+
+    .backgroundImage {
+      width: 100%;
+      height: 35rem;
+      position: relative;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      border-radius: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 2rem;
+
+      img {
+        position: absolute;
+        width: 100%;
+        height: 35rem;
+        object-fit: cover;
+        filter: brightness(0.7);
+      }
+
+      .title {
+        position: relative;
+        color: #fff;
+        font-weight: 400;
+        font-size: 2rem;
+        flex-wrap: wrap;
+        width: 80%;
+        line-height: 1.2;
+      }
+
+      .videoLink {
+        position: relative;
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.25rem;
+        flex-wrap: wrap;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+
+        svg {
+          margin-right: 0.5rem;
+        }
+      }
+
+      .destinationsGrid {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+
+        .gridItem {
+          height: 6rem;
+          width: 100%;
+          background-color: rgba(13, 205, 138, 0.7);
+          border-radius: 0.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 0.1em solid transparent;
+          transition: all 300ms ease;
+          cursor: pointer;
+
+          h2 {
+            padding: 1rem;
+            color: #fff;
+            font-weight: 600;
+            font-size: 1.15rem;
+            flex-wrap: wrap;
+            text-align: center;
+            line-height: 1.2;
+          }
+
+          &:hover {
+            border-color: #fff;
+            background-color: rgba(13, 205, 138, 0.9);
+          }
+        }
+      }
+    }
+
+    .wineRoadContainer {
+      width: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+
+      .wineRoadImage {
+        position: relative;
+        width: 15rem;
+        height: 10rem;
+        border-radius: 0.5rem;
+        overflow: hidden;
+
+        img {
+          // position: relative;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: all 300ms ease;
+        }
+      }
+
+      .content {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        max-width: 15rem;
+        text-align: center;
+      }
+
+      &:hover {
+        .wineRoadImage {
+          img {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+  }
+}

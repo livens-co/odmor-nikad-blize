@@ -1,0 +1,160 @@
+{
+    "navigation": {
+        "home": "Pocetna"
+    },
+    "menu": {
+        "homePage": "Početna"
+    },
+    "page": {
+        "homeHeader": "Početna",
+        "homeContent": "Dobrodošli na najbolje mjesto za pronalazak vašeg novog doma"
+    },
+    "homePage": {
+        "header": "Početna",
+        "content": "pocetna"
+    },
+    "housesPage": {
+        "header": "Kuće za odmor",
+        "content": "Putovanje je ponajprije bijeg iz poznate rutine, a odmor opuštanje u sigurnom i ugodnom okruženju. Još kad na raspolaganju imate vlastitu kuću i zelenilo, a pritom ne morate daleko potegnuti – može se reći da ste pronašli idealnu kombinaciju. Naši stari zvali su to ladanje i znali su uživati, a nema razloga da i danas ne slijedimo njihov primjer. U zelenom prstenu oko Zagreba skrivene su komforne kuće stvorene da postanu novi ladanjski raj. U njima ćete pronaći privatnost, potpuni mir i slobodu, predivnu prirodu i seosku idilu – jedan sasvim jednostavniji život. Iako u ova nesigurna vremena zvuči kao san, odmor po vlastitoj mjeri nikad nije bio bliže."
+    },
+    "housePage": {
+        "featured": "Pogledajte još",
+        "amenities": "Sadržaji",
+        "web": "Web stranica"
+    },
+    "wineRoadsPage": {
+        "header": "Vinske ceste",
+        "content": "Vinogradi Zagrebačke županije pripadaju vinskoj regiji Bregovita Hrvatska. Smješteni su na povišenim terenima, a to su obronci planina i nižeg gorja koji na svojim južnim padinama imaju izvrsne uvjete za proizvodnju visokokvalitetnog grožđa. Vinogradi se penju i iznad 400 m nadmorske visine, u ponekim slučajevima su jako strmi, ali prevladavaju pitomi, blago nagnuti brežuljci. Najviše je takvih vinograda na Plešivici, a cijelo područje karakteriziraju većinom bijela vina, pjenušava i mirna, u pravilu svježa i lagana, vrlo lijepih cvjetnih i voćnih aroma, ali sve više i kompleksnija, odležana, macerirana vina."
+    },
+    "newsPage": {
+        "header": "Zanimljivosti"
+    },
+    "destinationsPage": {
+        "header": "Destinacije",
+        "content": "Slikovita mjesta s mirnim ritmom života, pitoma i plodna sela, obilje prirodnih ljepota. Ubacite tragove duge povijesti, ponosno čuvanu baštinu, bogatstvo domaće kuhinje, autentična vina, pa svemu dodajte iskrenu gostoljubivost i dobili ste zagrebačku okolicu. Zeleni prsten koji drži leđa Zagrebu ugodno je daleko od vreve velegrada, a dovoljno blizu da uvijek bude usput. SADA otkrijte vaše destinacije!",
+        "link": "Interaktivni preglednik Zagrebačke županije",
+        "city": "Gradovi",
+        "municipality": "Općine"
+    },
+    "digitalNomadsPage": {
+        "header": "Digitalni nomadi",
+        "t1": "Tko su digitalni nomadi?",
+        "p1_1": "Digitalni nomad je poduzetnik ili zaposlenik koji gotovo isključivo rabi digitalne tehnologije za obavljanje svog posla. Istodobno je neovisan i vodi život na više mjesta. Digitalni nomadi obično rade na putu i uglavnom gdje postoji pristup internetu.",
+        "p1_2": "S obzirom na to da razne zemlje sada žele privući digitalne nomade, Hrvatska je proširila svoje kratkoročne dozvole boravka tako da uključuje putnike izvan Europske unije.",
+        "p1_3": "Podnositelji zahtjeva moraju raditi na daljinu za tvrtku koja nije registrirana u Hrvatskoj i koja tamo ne obavlja poslove niti pruža usluge poslodavcima. Privremeni boravak odobrava se do godinu dana, a tamo im se mogu pridružiti članovi uže obitelji. Podnositelji zahtjeva iz zemalja čiji državljani moraju imati vizu za ulazak u Hrvatsku moraju podnijeti zahtjev u inozemstvu u jednoj od diplomatskih misija ili konzularnih predstavništava te zemlje. Oni koji ne moraju posjedovati vizu svoj zahtjev mogu predati u diplomatskoj misiji, konzularnom predstavništvu ili policijskoj upravi ili policijskoj postaji koja je relevantna za adresu njihovog privremenog prebivališta.",
+        "p1_4": "Ne smiju imati kaznenu evidenciju i moraju priložiti kopiju važeće putne isprave, dokaza o zdravstvenom osiguranju i ugovora o radu ili druge isprave koja dokazuje njihov radni aranžman. Oni također moraju pružiti dokaz o sredstvima za život tijekom boravka i na račun dostaviti bankovni izvod ili dokaz o redovnom dohotku u kojem moraju imati na raspolaganju najmanje 28.800 kuna (3802 EUR) na razdoblje od 12 mjeseci.",
+        "t2": "Istražite Zagrebačku županiju kao digitalni nomad",
+        "p2": "Čudesan svijet digitalnih nomada i novoga doba omogućuje vam da boravite i radite u Hrvatskoj do godine dana i pritom istražujete sve prirodne i kulturne ljepote države. Zagrebačka županija osim blizine glavnog grada nudi vam slikovita mjesta s mirnim ritmom života, pitoma i plodna sela, obilje prirodnih ljepota... Ubacite tragove duge povijesti, ponosno čuvanu baštinu, bogatstvo domaće kuhinje, autentična vina. Pa svemu dodajte iskrenu gostoljubivost i dobili ste zagrebačku okolicu. Za one koji prihvate kratkotrajnu boravišnu dozvolu, Zagrebačka županija ima bogatu kulturnu ostavštinu s izvrsnim muzejima, a ljubitelji prirode uživat će u Parku prirode Žumberak-Samoborsko gorje koji nudi brojne pješačke i biciklističke staze.",
+        "t3": "Kako se kretati?",
+        "l1": "Javni prijevoz i parking",
+        "l2": "Zagrebački električni tramvaj",
+        "l3": "HŽ Putnički prijevoz",
+        "l4": "Autobusni kolodvor Zagreb",
+        "l5": "Više"
+    },
+    "articlePage": {
+        "featured": "Možda će vas zanimati",
+        "button": "Više članaka"
+    },
+    "castlesPage": {
+        "header": "Bajkoviti dvorci",
+        "web": "Web stranica"
+    },
+    "dayInPage": {
+        "header": "Dan u Zagrebačkoj županiji",
+        "tc1": "Provedite vikend u Zagrebačkoj županiji - posjetite Zaprešić, Svetu Nedelju i Samobor, otkrijte nataknutu prirodnu baštinu Žumberka i kušajte vina plešivičkih vinara",
+        "tc2": "Provedi dan u kraljevskom vinorodnom kraju, saznaj 'Kaj su jeli naši stari' te predahni na selu",
+        "tc3": "Provedite dan otkrivajući kulturu Turopolja i prirodu Pokuplja",
+        "zapresicT": "Zaprešić",
+        "zapresicP": "Zaprešić i njegova okolica nude više zanimljivih turističkih sadržaja: 5 dvoraca (Lužnica, Januševec, Laduč, Gornja Bistra, Jakovlje), crkve, rezervate životinjskog i biljnog svijeta uz dobru gastronomsku ponudu i tradicionalne manifestacije (Dani Jelačića u svibnju i listopadu). Glavna atrakcija su Novi dvori Jelačićevi, jedna od najbolje sačuvanih feudalnih gospodarskih cjelina u Hrvatskoj koji su udaljeni samo 1,5 kilometara od središta Zaprešića (dvadesetak kilometara od Zagreba). Zaprešić je i grad sporta. Uz nogomet, rukomet, košarku, kuglanje nudi se konjički sport i preponsko jahanje, paragliding, letenje zmajevima na motorni pogon, biciklizam, tenis i golf vježbalište s tri PAR 3 polja.",
+        "zapresicTM": "Ne propustite…",
+        "zapresicPM": "Dvorac Lužnica, jednokatno barokno zdanje. Podignut je početkom XVIII. stoljeća. Nekoć je bio u posjedu obitelji Rauch. Ima tri krila, tlocrt je u obliku slova U. Njegovo je srednje krilo naglašeno rizalitom, a na uglovima cilindričnim kulama. Iznad glavnog ulaza, koji se nalazi nasuprot parku, prostrani je balkon. Na pročeljima dvorca, iznad prozora, reljefno su napravljena različita poprsja. U dvorskoj je kapeli oltar iz doba rokokoa. Spomenik je prve kategorije. U Lužnici djeluje Duhovno-obrazovni centar Družbe sestara milosrdnica sv. Vinka Paulskog “Marijin dvor”. Dvorac je otvoren za javnost.",
+        "svNedeljaT": "Sveta Nedelja",
+        "svNedeljaP": "Na putu prema najpopularnijoj izletničkoj destinaciji Zagrepčana - Samoboru možete proći najmlađim gradom u Zagrebačkoj županiji, Svetom Nedeljom. Omiljeno je to odredište brojnih posjetitelja zbog brojnih športsko-rekreativnih sadržaja i jezera (biciklističke i pješačke staze, ribolov na jezerima, vožnje kanuom, paintball). U Svetoj Nedelji se nalazi i Dvorac Erdödy u Kerestincu, renesansno - barokni kaštel koji je sagradila je grofovska obitelj Erdödy te župna crkva Presvetog Trojstva koja se nalazi središtu naselja.",
+        "svNedeljaTM": "Jeste li znali...",
+        "svNedeljaPM": "Svetonedeljski kraluš je varijanta raskošne tradicijske pletene ženske ogrlice, kakve se inače rade u kontinentalnoj Hrvatskoj, no razlikuje se od njih po veličini, ornamentima i boji. Još zvan i kraluž ili kragulj, na prostoru svetonedeljskog kraja počinje se pojavljivati u 19. stoljeću te s vremenom postaje dio nakita svečane ženske narodne nošnje. Nosi se uz vrat na kraglin, obično je od bijele nabrane čipke, s raznim ornamentima u boji. Nizanjem staklenih ili koraljnih sitnih perli na osnovu od 8 vlasi ili niti bijelog konjskog repa, ili u novije doba od plastike, dobivaju se nacifrani ornamenti. Kraluš najčešće koristi crvenu boju, ali i trobojnicu (crven, bijeli, plavi). Iza vrata žene kraluš je vezan crvenom satenskom vrpcom.",
+        "samoborT": "Samobor",
+        "samoborP1": "Samobor je slikovit gradić duge povijesti, bogatog kulturnog naslijeđa i atraktivne okolice s očuvanom starom gradskom jezgrom, a smjestio se na istočnim obroncima Samoborskog gorja, na ulazu u romantičnu dolinu potoka Gradne. Šetnja gradom počinje obilaskom stare gradske jezgre oko Trga kralja Tomislava (sve zgrade na Trgu uređene su u kasnobarkonom, klasicističkom ili secesijskom stilu i zaštićeni su spomenici). U blizini se nalaze župna crkva sv. Anastazije, rijetka ranobarokna crkva u Hrvatskoj, Livadićev dvorac u kojemu je danas smješten muzej Samobor. Šetalište uz potok Gradnu vodi sve do podnožja Starog grada Samobora kojeg je davne 1268. godine dao izgraditi češki kralj Otokar. U Otruševcu možete posjetiti jednu od najljepših špilja sjeverozapadne Hrvatske i upoznati sve ljepote podzemnoga svijeta Grgosove špilje, a u rudniku sv. Brabara u mjestu Rude saznajte priču o mitskim stvorenjima Bergmanima, teškom rudarskom životu i tradiciji ovog područja. Samoborska je gastronomska tradicija bogata i raznovrsna. U brojnim samoborskim objektima i gospodarstvima možete kušati tradicionalne gastronomoske specijalitete: poznatu slasticu Samoborsku kremšnitu, tradicionalni samoborski aperitiv Bermet, Samoborsku salamu, muštardu i rudarsku greblicu, autohtoni kolač koji je dobio oznaku zemljopisnog porijekla i tako postao prvi zaštićeni gastronomski proizvod u Zagrebačkoj županiji.",
+        "samoborP2": "Za uspomenu i sjećanje na ovaj županijski turistički biser pobrinuli su se samoborski obrtnici koji svojim vrijednim rukama izrađuju tradicionalne suvenire: ručno brušene, kristale, licitare ili medenjake. Samobor je idealna destinacija za aktivan odmor i brdske avanture te nudi brojne biciklističke, pješačke, planinarske i trkačke rute. Svekoliku turističku ponudu Samobora obogaćuju brojne tradicionalne manifestacije. Najpoznatiji je Samoborski fašnik i jedan je od najatraktivnijih i najvećih u ovom dijelu Hrvatske. Skela u Medsavama najbrži put između Samobora i Zaprešića i idealna prilika začiniti putovanje nesvakidašnjim prelaskom Save jer skela u Medsavama neobičan je podsjetnik na stara, ali praktična prometna vremena.",
+        "samoborTM": "Jeste li znali...",
+        "samoborPM": "Barbara Celjska, u predaji poznatija kao Crna kraljica, bila je gospodarica Staroga grada Samobora. Što bi poželjela, to bi dobila. Priča se da je bila nemilosrdna prema svojim bivšim ljubavnicima. Reputaciju zle i okrutne žene vjerojatno je stekla zbog svog bavljenja alkemijom. O njoj kao alkemičarki postoje zapisi. Spominje ju češki alkemičar Johann von Laaz u djelu Via universalis i Bazilije Valentin u uvodu sedmog izdanja djela Chymische Schriften iz 1717. godine. Krištofor Erdődy izgubio je Stari grad Samobor u Genovi na kartama, 1777. godine Stari grad je sudskom presudom dan na upravljanje pobjednicima kartaške igre u trajanju od 32 godine.",
+        "jastrebarskoT": "Jastrebarsko",
+        "jastrebarskoP": "Preko Samoborskog gorja možete krenuti prema Jastrebarskom, gradu koje je ime dobilo po jastrebarima, srednjovjekovnim uzgajivačima lovnih ptica, jastrebova i sokolova te od davnina u svom grbu ima jastreba. Uputite se prema Plešivičkoj vinskoj cesti gdje osim autohtonih sorti kao što su purtugizec, plavec žuti, slatki zelenac i šipelj, možete kušati i svjetski poznate sorte vina poput chardonnayja, rajnskog rizlinga, sauvignona, traminca te crnog, bijelog i sivog pinota. Lokalnu tradicijsku hranu očekujte u jednom od restorana koji je nositelj standarda 'Okusi zagrebačkoga kraja' uz obaveznu degustaciju plešivičkog copanjeka - tradicionalnog autohtonog slanog kolača. U centru Jastrebarskog prošećite prekrasno uređenim perivojem dvorca Erdody, posjetite Gradski muzej i galeriju koji su smješteni su u reprezentativno preuređenoj zgradi stare gradske vijećnice građenoj 1826. godine. U muzeju se čuva arheološka, kulturno-povijesna i etnografska baština jakanskoga kraja. Možete pogledati i bačvarsku zbirku obitelji Golub koja je koncipirana kao stalan izložbeni postav u prizemlju stare kuće. Osjetite duh starih vremena i obiđite Mlinarevu Ižu, originalnu mlinarevu kuću u kojoj je nekada živjela mlinareva obitelj. Sakralnu baštinu čine brojne crkve i kapele jaskanskoga kraja koja plijene pažnju svakom prolazniku. Jastrebarsko je idealna destinacija za ljubitelje aktivnog turizma i prirode. Istražite svaki kutak biciklom, pješice ili zrakom jer tu se nude brojne mogućnosti: biciklističke staze i rute, planinarenje, jahanje, orijentacijsko trčanje, motocross, a za one željnih adrenalina - paraglajding s Japetića ili Plešivice.",
+        "jastrebarskoTM": "Jeste li znali...",
+        "jastrebarskoPM1": "Charlie Chaplin je 1932. putovao iz Beča u Trst i stao u svratištu Vila Horvat koja i danas stoji u središtu sela Plešivica",
+        "jastrebarskoPM2": "godinama prije Charlieja Chaplina na Plešivici je bila i Isadora Duncan",
+        "jastrebarskoPM3": "Na Plešivici se nalazi najstarija sanjkaška staza u Hrvatskoj! Tradicija sanjkanja na Plešivici stara je više od sto godina. Po legendarnoj stazi Kamenice sanjkalo se još davne 1907., a tradicija se nastavila do današnjeg dana, ponajviše zahvaljujući entuzijastima koji su utrke organizirali sve ove godine. Na stazi dugoj 350 metara u siječnju se tradicionalno organizira popularni sanjkaški kup Plešivica.",
+        "svIvanZelinaT": "Sveti Ivan Zelina",
+        "svIvanZelinaP": "Sveti Ivan Zelina smjestio se na mjestu gdje obronci Zagrebačke gore blago se spuštajući prelaze u prostor Prigorja, na području obilježenom visoravnima s vrhovima od oko 500 m. n. v., a među kojima se posebno ističe Kladešćica, koje postupno i blago, nižim obroncima i usjecima, prelaze u nizinski dio rijeke Lonje. Sveti Ivan Zelina je posebno poznata po brojnim vinogradima i proizvodnji kvalitetnih vina. Turistički je posebno zanimljiva Zelinska vinska cesta koja prolazi vinorodnim naseljima zelinskog kraja. Osim prekrasnih pogleda na vinograde, uživati ćete u ljubaznim domaćinima i izvrsnim vinima proizvedenim od najpoznatijih svjetskih sorti grožđa. Posebna pažnja pridaje se kraljici Prigorja – kraljevini, koja je autohtona i najrasprostranjenija baš u prigorskom kraju. Kraljevina Zelina je i robna marka vina Zagrebačke županije, a vino je nježno, pitko i osvježavajuće.",
+        "svIvanZelinaTM": "Grad vitezova",
+        "svIvanZelinaPM": "Postani vitez i vrati se u srednji vijek na jedan dan. Vitezovi zelingradski su udruga koja se već godinama bavi proučavanjem i prezentacijom srednjega vijeka: načina života, kuhinje, naoružanja, viteških turnira te starih obrta. Međunarodni viteški turnir održava se svake godine u lipnju te tako možete doživjeti opsadu grada, okušati se u borbi s mačevima i streličarstvu te isprobati srednjovjekovne delicije.",
+        "vrbovecT": "Vrbovec",
+        "vrbovecP": "Pitomi vrbovečki kraj lijepo, brežuljkasto područje, koje u sjevernom i sjeverozapadnom dijelu zahvaća kalničko prigorje, a u južnom i jugoistočnom postupno prelazi u ravničarski dio u kotlinama Lonje, Glogovnice i Česme. Kaštel u Vrbovcu prvi se puta spominje 1528. godine, tvrđava je podignuta za obranu od Turaka. Kasnije je to posjed Zrinskih, Erdödyja, pa opet Zrinskih, Patačića i drugih. Kula Zrinski je dvokatna kula stožastog krova izgrađena od opeke. Mještani je zovu kula Zrinski u znak sjećanja na bana Petra Zrinskog koji je u Vrbovcu rođen u 17. stoljeću.",
+        "vrbovecTM": "„Kaj su jeli naši stari“",
+        "vrbovecPM": "Okusi prošlost na tradicionalnoj manifestaciji koja se održava već skoro 40 godina zadnjeg vikenda u kolovozu. “Kaj su jeli naši stari” jedinstvena je turističko-kulinarska priredba i degustacijsko-prodajna izložba koja privlači sve više posjetitelja, a održava se svake godine krajem kolovoza. Starinska narodna jela dio su narodnog identiteta, a manifestacija omogućuje da se ta tradicija održi i da stara jela i recepti dobiju nove poklonike. Ne propustite probati Vrbovečku peru, najpoznatiji tradicionalni kolač toga kraja, čiji recept se prenosi s koljena na koljeno.",
+        "ivanicT": "Ivanić-Grad",
+        "ivanicP": "U plodnoj ravnici, bogatoj vodom, kao i na blagim, vinorodnim obroncima i brežuljcima Moslavačke gore, smjestilo se 56 naselja, među kojima su najveća i najpoznatija Ivanić-Grad, Kloštar Ivanić i Križ. Još u prošlosti kraj je dobio ime Otok zbog rječica Glogovnice, Lonje i Česme koje ga okružuju, a u blizini je i Sava. Područje Otoka Ivanića zapravo je rubni dio aluvijalne Panonske nizine, čiji su ostaci nalazišta nafte i plina. Ono što ovo područje čini jedinstvenim i u Europi, ali i šire, svakako su rijetki izvori ljekovite nafte, naftalana i bogata nalazišta geotermalnih izvora prirodno slane vode, uz čije se postojanje veže poznato lječilište “Naftalan”.",
+        "ivanicTM1": "Živopisna sela",
+        "ivanicPM1": "Osim prirodnih ljepota, Otok Ivanić svakom će izletniku otkriti i bogato povijesno i kulturno naslijeđe. Gotovo je svaka sačuvana kapelica primjer lijepog seoskog baroka. Divljenje zaslužuju i maštoviti ukrasi na starim drvenim kućama, a u draži posavskog graditeljstva napose se može uživati u živopisnim selima uz rijeku Savu. Osobito je zanimljivo zaštićeno etno-selo Vezišće, rodno mjesto operne primadone Milke Trnine. Izlet na selo je savršeni bijeg i kratki predah od užurbanog života. Priroda i tradicijska kuhinja pravi su par za opuštanje. Bijeg u zelenilo potražite na seoskom imanju Kezele, na imanju su za posjetitelje uređene drvene kućice stare oko 100 godina, u kojima se uživaju jela iz domaće kuhinje i vina iz vlastitog podruma. Doživljaj pravog seoskog gospodarstva zaokružuje prekrasan pogled na vinograde, štala s domaćim životinjama i etnografska zbirka s čudesnim starinama. Poučna staza šume Marča nalazi se u neposrednoj blizini, prilagođena je izletnicima, roditeljima s djecom i rekreativcima.",
+        "ivanicTM2": "Grad „buča“",
+        "ivanicPM2": "Pravo vrijeme za posjet Ivanić-Gradu je u listopadu kada se održava najveselija i najposjećenija tradicionalna, turističko-gospodarska i gastronomska manifestacij Bučijada. Okosnica manifestacije je prodajni sajam buča, bučinog ulja, proizvoda od buča i ostalih eko-etno proizvoda na kojem izlaže preko 200 izlagača.",
+        "tc": "Turopolje je kulturno-povijesna mikroregija u Središnjoj Hrvatskoj, južno od glavnog grada Zagreba. U srcu Turopolja razvio se grad Velika Gorica, okružen stoljetnim šumama, rijekama Odrom, Kupom i Savom, jezerima te pitomim Vukomeričkim goricama. Pokupski kraj uz rijeku Kupu je posebice privlačan zbog ljepote prirode te njene čistoće koja omogućava odvijanje niza aktivnosti od sportskih do gospodarskih.",
+        "t1": "Aktivni odmor",
+        "p1": "Velika Gorica sa svojom velikom mrežom pješačko-biciklističkih staza, kao i cijelo Turopolje od Posavine do Pokupskog, idealan je prostor za biciklizam te rekreativno uživanje obitelji s djecom. Na prostoru grada, biciklisti mogu uživati u 35 kilometara uređenih biciklističkih staza koje se protežu uz glavne gradske ceste i obilaznice, ali i u smjeru prema glavnom gradu. Osim biciklizma možete uživati i u šetnji devet kilometara dugoj poučnoj stazi Šumarica.",
+        "t2": "Kultura i povijest",
+        "p2": "Posebna su i jedinstvena vrijednost Turopolja drvene kapelice i plemićke kurije, takozvane turopoljske ljepotice. Područje je bogato hrastom, koji je i omogućio čuvenu gradnju sakralnih i drugih objekata od drva, a stari “turski” hrast lužnjak, nedaleko od Velike Gorice, posebno je zaštićeni objekt – spomenik prirode. 11 drvenih crkva i kapele na ovom području predstavljaju najviši domet narodnog graditeljstva barokne arhitekture na području sjeverne Hrvatske, a najpoznatija od njih je kapela sv. Barbare. O bogatstvu i povijesti ovoga kraja najviše ćete saznati ako posjetite Muzej Turopolja koji se nalazi u zgradi iz 18. st. u samom centru grada Velike Gorice. Osim drvenih kapela možete i razgledati Stari grad Lukavec – obrambenu utvrdu koja se prvi put spominje 1256. Godine. Legenda kaže kako su se upravo na ovom području održavala suđenja vješticama, a dokaz tomu je i “coprnički” zatvor koji se nalazi u prizemlju kaštela.",
+        "tM1": "Zanima vas arheologija?",
+        "pM1": "U 1 st. prije Krista započelo je rimsko osvajanje Panonije, a bogatstvo rimskih arheoloških lokaliteta nalazi se u cijeloj Hrvatskoj, jedno takvo nalazište je i nekadašnji rimski grad Andautonia, koju stručnjaci zovu “Rimski Zagreb”. Nalazi se upravo ovdje pored Velike Gorice, gdje je i otvoren Arheološki park u kojem možete razgledati dijelove rimskog grada: rimsku ulicu, gradsko kupalište i dvije zgrade, a pruža se uvid i u rimsku nekropolu.",
+        "tM2": "Kako se nekada živjelo",
+        "pM2": "U blizini ušća potoka Kupčine uz Kupu se nalazi veće seosko naselje Donja Kupčina. U selu se već godinama njeguje ljubav za očuvanje kulturne baštine, što potvrđuje i osnivanje vlastitog muzeja na otvorenom (drugom po veličini u Hrvatskoj) Zavičajnog muzeja Donja Kupčina. U prostoru Muzeja se nalazi izrazito zanimljiv sklop seoskih kuća: drvenih prizemnica i čardaka, zajedno sa gospodarskim objektima, te izloženim etnografskim predmetima.",
+        "t3": "Gastro ponuda",
+        "p3": "Dobra ideja za kratki izlet zasigurno su brojna izletišta i restorani u kojima u mirnoj prirodi, uz fini domaći ručak i brojne aktivnosti za najmlađe možete uživati tokom cijele godine. Posjetite Ceste sira, proizvodnja sireva na ovim prostorima ima vrlo dugu tradiciju. Danas je ovo područje poznato po različitim vrstama mliječnih prerađevina i sireva, kao što je sir i vrhnje, zatim sirevi proizvedeni na tradicionalan način – svježi, kuhani, dimljeni te sa dodacima raznih začina."
+    },
+    "gastroPage": {
+        "header": "Okus tradicije",
+        "text": "Krilatica „s farme na stol“ u Zagrebačkoj županiji nije pomodnost, nego način života, oduvijek. A stol nije nimalo malen. Zeleni zagrebački prsten većinom je ruralni kraj; s ovih plodnih polja hrana je stizala i još uvijek stiže u Zagreb. Dobar dio danas poznatih i omiljenih tradicionalnih recepata izvorno je nastajao baš ovdje, u ovim selima, od namirnica koje su bile bliske i dostupne, a vrijedne ruke pretvarale su ih u jednostavna svakodnevna jela ili svečanu gozbu za obitelj. Jaja, mliječni proizvodi, brašno, krupica, u rjeđim prilikama meso, sezonsko voće i povrće iz vlastitog vrta – sve je to temelj domaće kuhinje zagrebačke okolice. Cijelo područje, i Prigorje, i Moslavina, i Turopolje, i Jaska, i Samobor, i Zaprešić, svi njeguju sličan kulinarski identitet, no opet svaki kraj ima svoje posebnosti i autohtone specijalitete. Restorani i domaćinstva Zagrebačke županije cijene tradiciju i jedva čekaju da obilno ispričaju svoju priču na tanjuru – na vama je da ih posjetite i istražite.",
+        "link": "Saznaj više",
+        "r1t": "Kod špilje",
+        "r1p": "Poznat i kao Grgos, po imenu vlasnika, restoran koji se doslovno nalazi kraj špilje u Otruševcu omiljena je vikend destinacija gradskih šmekera. Razlog je tehnički izvrsna kontinentalna kuhinja temeljena na lokalnim namirnicama, ali s otmjenim tretmanom. Seljačka elegancija, u najboljem smislu, i to u mirnom, zelenom okruženju i dobroj atmosferi.",
+        "r2t": "Gabrek 1929.",
+        "r2p": "Broj u imenu doista označava godinu utemeljenja. Mnogo je to tradicije, pa ekipa Gabreka lokalnu domaću kuhinju ima u malom prstu. Naglasak je na mesu i gljivama, i ako vas zanima kako izgleda bogati samoborski obiteljski ručak, došli ste na pravo mjesto. Ne propustite probati juhu od gljiva.",
+        "r3t": "Restoran Karlo",
+        "r3p": "Ponosni vlasnik terase s možda najljepšim pogledom na plešivičke vinograde, Karlo je perjanica plešivičke scene. Neka vas ne zavara rustikalna drvena kućica – sve što uđe u kuhinju svježe je i domaće, no tanjuri koji izlaze male su majstorije ugodne i oku i nepcu.",
+        "r4t": "Zeleni papar",
+        "r4p": "Popularan izbor za nedjeljne ručkove ili prigodne proslave, Zeleni papar pouzdan je u pripremanju klasika hrvatske kuhinje, ali, dakako, najviše naginje na lokalnu stranu. Ne robuje trendovima, već suvereno hoda utabanom stazom, a goste osvaja i srdačnost domaćina.",
+        "r5t": "Restoran Potkova – Trajbar team",
+        "r5p": "Restoran Potkova usred golemog i elegantno uređenog imanja konjičkoga kluba iza Zaprešića ambijentom, poslugom i klasičnom kuhinjom odskače od ruralnog okruženja te čini da se gosti osjećaju kao davno izumrla aristokracija na ladanju.",
+        "r6t": "Ljubekov gaj",
+        "r6p": "Zamislite mirno seosko imanje na vrhu brdašca, toplinu drva, domaću prigorsku kuhinju sparenu s vinima iz vlastite proizvodnje, prostrano dvorište i dobili ste Ljubekov gaj. Ovamo se dolazi radi ugođaja i odmora isto koliko i radi poštene i obilne rustikalne hrane.",
+        "r7t": "Restoran Ivančić",
+        "r7p": "Na vinorodnoj Plešivici, nalazi se obiteljski restoran s kombinacijom tradicionalnog i modernog ugostiteljstva te prekrasnim pogledom. Gastronomska ponuda začinjena je vinima proizvedeni u vlastitom podrumu.",
+        "r8t": "Mon Ami",
+        "r8p": "Ne biste očekivali kvalitetan riblji restoran starog kova u Velikoj Gorici, ali upravo to dobit ćete u elegantnom Mon amiju. Osim jadranskih, tu su i klasični kontinentalni specijaliteti, a dugu tradiciju i kvalitetu vodič Michelin nagradio je preporukom.",
+        "r9t": "Seosko gospodrastvo 'Slavagora'",
+        "r9p": "U srcu Samoborskog gorja, smjestila se Slavagora, a na lokaciji koja pruža predivan pogled na brežuljkasti krajolik, stari Okić grad, Zagreb i okolicu smjestilo se Seosko obiteljsko gospodarstvo Kuzmanović – Slavagora.  Kuće su uređene poštujući tradicijsku arhitekturu ovog kraja, a tradicija je i ono što se nudi na stolu, vina, rakije i sokovi iz vlastite proizvodnje, te izvrsna domaća kuhinja."
+    },
+    "destinationPage":{
+        "d1": "Adresa",
+        "d2": "Telefon",
+        "d3": "Web stranica",
+        "d4": "Udaljenost od Zagreba",
+        "t": "Turističke atrakcije"
+    },
+    "footer": {
+        "c1t": "Zagrebačka županija",
+        "c1l1": "Zanimljivosti",
+        "c1l2": "Interaktivna karta",
+        "c1l3": "O nama",
+        "c1l4": "Kontakt",
+        "c2t": "Vodič",
+        "c2l1": "Kuće za odmor",
+        "c2l2": "Gradovi i općine",
+        "c2l3": "Vinske ceste",
+        "c2l4": "Dvorci",
+        "c3t": "Doživite",
+        "c3l1": "Gastronomija",
+        "c3l2": "Digitalni nomadi",
+        "c3l3": "Dan u Zagrebačkoj županiji",
+        "c4t": "Društvene mreže"
+    }
+}
