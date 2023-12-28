@@ -10,8 +10,22 @@
         "homeContent": "Dobrodošli na najbolje mjesto za pronalazak vašeg novog doma"
     },
     "homePage": {
-        "header": "Početna",
-        "content": "pocetna"
+        "heroT1": "Odmor nikad",
+        "heroT2": "bliže",
+        "heroText": "Zagrebačka županija je 'zelena oaza' grada Zagreba s čarobnom prirodom te bogatom kulturnom baštinom sa preko 50 izletišta i obiteljskih poljoprivrednih domaćinstava, te tri vinske ceste.",
+        "heroLogo1": "Turistička zajednica",
+        "heroLogo2": "Zagrebačke županije",
+        "btn": "Prikaži više",
+        "btnA": "Pročitaj više",
+        "t1": "Kuće za odmor",
+        "t2": "Zanimljivosti",
+        "t3": "Doživite",
+        "t4": "Digitalni nomadi",
+        "t5": "Vinske ceste",
+        "exp1": "Gradovi i općine",
+        "exp2": "Gastronomija",
+        "exp3": "Dan u Zagrebačkoj županiji",
+        "exp4": "Dvorci"
     },
     "housesPage": {
         "header": "Kuće za odmor",
@@ -133,7 +147,7 @@
         "r9t": "Seosko gospodrastvo 'Slavagora'",
         "r9p": "U srcu Samoborskog gorja, smjestila se Slavagora, a na lokaciji koja pruža predivan pogled na brežuljkasti krajolik, stari Okić grad, Zagreb i okolicu smjestilo se Seosko obiteljsko gospodarstvo Kuzmanović – Slavagora.  Kuće su uređene poštujući tradicijsku arhitekturu ovog kraja, a tradicija je i ono što se nudi na stolu, vina, rakije i sokovi iz vlastite proizvodnje, te izvrsna domaća kuhinja."
     },
-    "destinationPage":{
+    "destinationPage": {
         "d1": "Adresa",
         "d2": "Telefon",
         "d3": "Web stranica",

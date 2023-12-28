@@ -10,8 +10,22 @@
         "homeContent": "Welcome to the best place to find your next home"
     },
     "homePage": {
-        "header": "HomePage",
-        "content": "homepage"
+        "heroT1": "Vacation in",
+        "heroT2": "Zagreb County",
+        "heroText": "The Zagreb County is a 'green oasis' surrounding the city of Zagreb, with enchanting nature and a rich cultural heritage, boasting over 50 excursion sites and family-run agricultural households, as well as three wine routes.",
+        "heroLogo1": "Zagreb County",
+        "heroLogo2": "Tourist Board",
+        "btn": "View more",
+        "btnA": "Read more",
+        "t1": "Vacation Houses",
+        "t2": "News",
+        "t3": "Experience",
+        "t4": "Digital nomads",
+        "t5": "Wine roads",
+        "exp1": "Cities and Municipalities",
+        "exp2": "Gastronomy",
+        "exp3": "Day in Zagreb County",
+        "exp4": "Castles"
     },
     "housesPage": {
         "header": "Vacation Houses",
