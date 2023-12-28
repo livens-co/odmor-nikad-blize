@@ -39,7 +39,6 @@ import type { Metadata } from "next";
 import { Locale, i18n } from "@/i18n.config";
 
 import { Poppins } from "next/font/google";
-import Header from "@/components/header";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import LanguageSwitcher from "@/components/LanguageSwitcher/LanguageSwitcher";
@@ -67,7 +66,7 @@ export default function RootLayout({
   return (
     <html lang={params.lang}>
       <body className={font.className}>
-        {/* <Header lang={params.lang} /> */}
+       
         <Navbar
           // data={undefined}
           params={{
