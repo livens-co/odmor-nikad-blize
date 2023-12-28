@@ -59,7 +59,7 @@ const HouseCarousel: React.FC<HouseCarouselProps> = ({ houses, lang }) => {
                     />
                   </div>
 
-                  {/* <div className="imageOverlay" /> */}
+                  <div className="imageOverlay" />
                   <p className="houseTitle">{house.name}</p>
                 </div>
               </Link>

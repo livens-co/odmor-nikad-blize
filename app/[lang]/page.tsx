@@ -7,13 +7,15 @@ import heroImg from "../../public/assets/header-ONB.jpeg";
 import destinationsImg from "../../public/assets/dvorac-naslovna.jpg";
 import digitalniNomadi from "../../public/assets/digitalniNomadi.jpeg";
 import logoWhite from "../../public/logo/logo-bijeli.svg";
+import samobor from "../../public/assets/gradovi/samobor.webp";
+
+import gastronomy from '../../public/assets/gastronomy.jpeg'
 
 import "./style.scss";
 import Image from "next/image";
 import Link from "next/link";
 import getArticles from "@/sanity/actions/get-articles";
 import HouseCarousel from "@/components/HouseCarousel/HouseCarousel";
-import OndemandVideoRoundedIcon from "@mui/icons-material/OndemandVideoRounded";
 import { PortableText } from "@portabletext/react";
 
 export const revalidate = 0;
@@ -110,7 +112,7 @@ const HomePage: React.FC<HomePageProps> = async ({ params: { lang } }) => {
         {/* KUCE ZA ODMOR */}
         <section>
           <h2>{t.homePage.t1}</h2>
-          {/* <div className="houses"></div> */}
+         
           <HouseCarousel houses={houses} lang={lang} />
           <Link href={`/${lang}/kuce-za-odmor`} className="button">
             {t.homePage.btn}
@@ -200,8 +202,8 @@ const HomePage: React.FC<HomePageProps> = async ({ params: { lang } }) => {
               <div className="imageContainer">
                 <Image
                   priority
-                  alt="d"
-                  src={houses[0].images[0]}
+                  alt="Gradovi i općine"
+                  src={samobor}
                   height={200}
                   width={150}
                 />
@@ -216,8 +218,8 @@ const HomePage: React.FC<HomePageProps> = async ({ params: { lang } }) => {
               <div className="imageContainer">
                 <Image
                   priority
-                  alt="d"
-                  src={houses[0].images[0]}
+                  alt="Gastronomija"
+                  src={gastronomy}
                   height={200}
                   width={150}
                 />
@@ -232,8 +234,8 @@ const HomePage: React.FC<HomePageProps> = async ({ params: { lang } }) => {
               <div className="imageContainer">
                 <Image
                   priority
-                  alt="d"
-                  src={houses[0].images[0]}
+                  alt="Dan u Zagrebačkoj županiji"
+                  src={heroImg}
                   height={200}
                   width={150}
                 />
@@ -248,8 +250,8 @@ const HomePage: React.FC<HomePageProps> = async ({ params: { lang } }) => {
               <div className="imageContainer">
                 <Image
                   priority
-                  alt="d"
-                  src={houses[0].images[0]}
+                  alt="Castles"
+                  src={destinationsImg}
                   height={200}
                   width={150}
                 />

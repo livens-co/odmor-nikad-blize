@@ -12,7 +12,7 @@
   /* --tertiary: var(--color-dark-blue); */
   /* --quaternary: var(--color-red); */
   /* --dark-bg: var(--color-beige); */
-  --overlay: var(--color-white-300);
+  --overlay: rgba(0, 0, 0, 0.2);
   --radius: 3px;
   --gap: 4rem;
 }
