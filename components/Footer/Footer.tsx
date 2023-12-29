@@ -40,8 +40,8 @@ const Footer: React.FC<FooterProps> = async ({ params: { lang } }) => {
   const t: Dictionary = await pageFunction();
 
   return (
-    <div className="footer">
       <footer>
+    <div className="footer">
         <div className="logo">
           <Link
             href="https://www.croatia.hr/"
@@ -128,7 +128,7 @@ const Footer: React.FC<FooterProps> = async ({ params: { lang } }) => {
             </div>
           </div>
         </div>
-      </footer>
+      </div>
       <div className="copy">
         <div className="inner">
           <p>2024 &copy; Turistička zajednica Zagrebačke županije</p>
@@ -140,7 +140,7 @@ const Footer: React.FC<FooterProps> = async ({ params: { lang } }) => {
           </p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
