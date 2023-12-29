@@ -14,7 +14,6 @@
     display: flex;
     padding: 4rem 2rem;
     gap: 2rem;
-    
 
     .logo {
       flex: 1;
@@ -106,11 +105,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-self: flex-end;
+    // align-self: flex-end;
     height: 3rem;
     background-color: #838383;
-    margin-bottom: auto;
-    position: relative;
+    // margin-bottom: auto;
+    // position: relative;
 
     .inner {
       width: 100%;
@@ -174,11 +173,12 @@
   .footer {
     .copy {
       height: fit-content;
+      padding: 0.5rem 0;
 
       .inner {
         flex-direction: column;
         gap: 0.5rem;
-        padding: 0.5rem 0;
+        padding: 0;
 
         p {
           width: 60%;
