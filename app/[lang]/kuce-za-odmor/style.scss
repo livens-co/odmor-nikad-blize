@@ -177,3 +177,56 @@
     }
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .housesPage {
+    main {
+      .housesGrid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .housesPage {
+    gap: 2rem;
+
+    main {
+      gap: 2rem;
+
+      .textContainer {
+        padding: 1.5rem 1rem;
+      }
+
+      .housesGrid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .housesPage {
+    header {
+      padding-left: 5rem;
+
+      h1 {
+        font-size: 1.75rem;
+      }
+    }
+    main {
+      .textContainer {
+        p {
+          font-size: 0.9rem;
+          line-height: 1.4;
+        }
+      }
+
+      .pagination {
+        gap: 0.5rem;
+      }
+    }
+  }
+}
