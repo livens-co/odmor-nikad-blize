@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./style.scss";
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionary";
@@ -32,8 +30,6 @@ const WineRoadsPage: React.FC<WineRoadsPageProps> = async ({
   const t: Dictionary = await pageFunction();
 
   const wineRoads: WineRoad[] = await getWineRoads(lang);
-
-  // console.log(wineRoads)
 
   return (
     <div className="wineRoadsPage">

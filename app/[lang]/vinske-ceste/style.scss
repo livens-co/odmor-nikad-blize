@@ -1,5 +1,4 @@
 .wineRoadsPage {
-  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -134,6 +133,33 @@
       height: 360px;
       border-radius: 0.5rem;
       overflow: hidden;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wineRoadsPage {
+    gap: 2rem;
+    padding-bottom: 2rem;
+
+    main {
+      gap: 3rem;
+
+      .textContainer {
+        padding: 2rem 1rem;
+
+        p {
+          line-height: 1.4;
+        }
+      }
+
+      .wineRoadsVideo {
+        width: 90%;
+        aspect-ratio: 16/9;
+        height: auto;
+        border-radius: 0.5rem;
+        overflow: hidden;
+      }
     }
   }
 }
