@@ -1,5 +1,4 @@
 .wineRoadPage {
-  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -113,6 +112,84 @@
 
         p {
           text-wrap: wrap;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .wineRoadPage {
+    main {
+      .businesses {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .wineRoadPage {
+    main {
+      .textContainer {
+        padding: 2rem 1rem;
+
+        p {
+          line-height: 1.4;
+        }
+      }
+
+      .businesses {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wineRoadPage {
+    gap: 2rem;
+    header {
+      min-height: 5rem;
+
+      h1 {
+        line-height: 1.2;
+      }
+    }
+    main {
+      gap: 2rem;
+
+      
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wineRoadPage {
+    padding-bottom: 2rem;
+    
+    header {
+      min-height: 5rem;
+      padding: 0 1rem 0 5rem;
+
+      h1 {
+        font-size: 1.75rem;
+        line-height: 1.2;
+      }
+    }
+
+    main {
+      gap: 2rem;
+      padding: 2rem 1rem;
+
+      
+
+      .businesses {
+        grid-template-columns: 1fr ;
+        justify-items: center;
+
+        .businessCard {
+          width: 90%;
         }
       }
     }

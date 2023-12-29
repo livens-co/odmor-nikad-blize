@@ -50,15 +50,24 @@ html {
 }
 
 body {
-
   color: #000;
-
   background-color: #fff;
   line-height: 1.4;
   overflow-x: hidden;
+  /* position: relative; */
+}
+
+html,
+body,
+:root {
+  height: 100%;
 }
 
 a {
   color: inherit;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
