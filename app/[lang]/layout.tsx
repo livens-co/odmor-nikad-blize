@@ -46,11 +46,11 @@ export default function RootLayout({
             lang: params.lang,
           }}
         />
-        <Footer
+        {/* <Footer
           params={{
             lang: params.lang,
           }}
-        />
+        /> */}
       </body>
     </html>
   );
