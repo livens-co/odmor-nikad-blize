@@ -133,7 +133,7 @@ const Footer: React.FC<FooterProps> = async ({ params: { lang } }) => {
         <div className="inner">
           <p>2024 &copy; Turistička zajednica Zagrebačke županije</p>
           <p>
-            made with 💙 by{" "}
+            Developed by{" "}
             <Link href="https://livens.co/" target="_blank">
               livens
             </Link>

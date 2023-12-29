@@ -1,5 +1,4 @@
 .homePage {
-  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -21,7 +20,9 @@
       .backgroundImage {
         width: 100%;
         height: 100%;
-        position: relative;
+        position: absolute;
+        top: 0;
+        left: 0;
 
         img {
           width: 100%;
@@ -86,7 +87,7 @@
           line-height: 1.2;
           color: var(--white);
           text-transform: uppercase;
-          text-shadow: 2px 3px 5px rgba(0,0,0,0.25);
+          text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
         }
       }
 
@@ -110,7 +111,6 @@
 
     .rightContainer {
       flex: 4;
-      background-color: aliceblue;
       position: relative;
       display: flex;
       align-items: flex-end;
@@ -194,7 +194,6 @@
         border: 0.1em solid var(--secondary);
 
         &:hover {
-          // border: 0.1em solid var(--secondary);
           background-color: transparent;
           color: var(--secondary);
         }
@@ -202,10 +201,7 @@
 
       .articles {
         width: 100%;
-        // max-width: 1100px;
         display: flex;
-        // flex-direction: column;
-        // padding: 2rem 5%;
         position: relative;
 
         .mainColumn {
@@ -213,7 +209,6 @@
           display: flex;
           flex-direction: column;
           padding: 0.5rem;
-          // position: relative;
 
           .mainArticle {
             display: flex;
@@ -440,6 +435,7 @@
         display: flex;
         gap: 4rem;
         justify-content: center;
+        // flex-wrap: wrap;
 
         .wineRoadContainer {
           width: 100%;
@@ -448,7 +444,8 @@
           flex-direction: column;
           align-items: center;
           gap: 2rem;
-          margin-bottom: 2rem;
+          // margin-bottom: 2rem;
+          // padding: 0 1.5rem;
 
           .wineRoadImage {
             position: relative;
@@ -458,7 +455,6 @@
             overflow: hidden;
 
             img {
-              // position: relative;
               width: 100%;
               height: 100%;
               object-fit: cover;
@@ -479,6 +475,186 @@
               img {
                 transform: scale(1.05);
               }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .homePage {
+    main {
+      section {
+        .wineRoads {
+          flex-wrap: wrap;
+          gap: 2rem 4rem;
+
+          .wineRoadContainer {
+            width: fit-content;
+            padding: 0 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .homePage {
+    .heroSection {
+      height: 35rem;
+
+      .leftContainer {
+        flex: 3;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+        .title,
+        .text {
+          position: relative;
+          right: unset;
+          top: unset;
+          padding-left: 2rem;
+
+          h1 {
+            font-size: 3rem;
+            width: 95%;
+          }
+
+          p {
+            width: 90%;
+          }
+        }
+
+        .text {
+        }
+      }
+      .rightContainer {
+        flex: 2;
+      }
+    }
+
+    main {
+      section {
+        .articles {
+          justify-content: space-between;
+          gap: 2rem;
+
+          .mainColumn {
+            flex: 1;
+            padding: 0;
+
+            .mainArticle {
+              .articleImage {
+                height: 11rem;
+              }
+            }
+          }
+
+          .sideColumn {
+            padding: 0;
+
+            .sideArticle {
+              width: 100%;
+            }
+          }
+        }
+
+        .experience {
+          // gap: 3rem;
+
+          .experienceCard {
+            width: 18rem;
+            height: 14rem;
+
+            .imageContainer {
+              width: 16rem;
+              height: 9rem;
+            }
+
+            .titleContainer {
+              width: 16rem;
+              height: 9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .homePage {
+    gap: 2rem;
+    .heroSection {
+      .leftContainer {
+        .backgroundImage {
+          .overlay {
+            background: rgb(13, 141, 96);
+            background: -moz-linear-gradient(
+              180deg,
+              rgba(13, 141, 96, 1) 20%,
+              rgba(13, 141, 96, 0.7) 80%
+            );
+            background: -webkit-linear-gradient(
+              180deg,
+              rgba(13, 141, 96, 1) 20%,
+              rgba(13, 141, 96, 0.7) 80%
+            );
+            background: linear-gradient(
+              180deg,
+              rgba(13, 141, 96, 1) 20%,
+              rgba(13, 141, 96, 0.4) 80%
+            );
+          }
+        }
+      }
+
+      .rightContainer {
+        display: none;
+      }
+    }
+
+    main {
+      section {
+        .articles {
+          flex-direction: column;
+
+          .mainColumn {
+            .mainArticle {
+              .articleImage {
+                height: 15rem;
+              }
+            }
+          }
+
+          .sideColumn {
+            flex-direction: row;
+          }
+        }
+
+        .experience {
+          // gap: 3rem;
+          grid-template-columns: 1fr;
+
+          .experienceCard {
+            width: 22rem;
+            height: 18rem;
+
+            .imageContainer {
+              width: 20rem;
+              height: 13rem;
+            }
+
+            .titleContainer {
+              width: 20rem;
+              height: 14rem;
             }
           }
         }

@@ -25,3 +25,14 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .menuButton {
+    height: 4rem;
+    width: 4rem;
+
+    div {
+      width: 1.5rem;
+    }
+  }
+}
