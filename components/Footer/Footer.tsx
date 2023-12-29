@@ -64,7 +64,7 @@ const Footer: React.FC<FooterProps> = async ({ params: { lang } }) => {
           </Link>
         </div>
         <div className="links">
-          <div className="column">
+          <div className="linkColumn">
             <h3>{t.footer.c1t}</h3>
             <Link href={`/${lang}/zanimljivosti`}>{t.footer.c1l1}</Link>
             <Link
@@ -86,14 +86,14 @@ const Footer: React.FC<FooterProps> = async ({ params: { lang } }) => {
               {t.footer.c1l4}
             </Link>
           </div>
-          <div className="column">
+          <div className="linkColumn">
             <h3>{t.footer.c2t}</h3>
             <Link href={`/${lang}/kuce-za-odmor`}>{t.footer.c2l1}</Link>
             <Link href={`/${lang}/destinacije`}>{t.footer.c2l2}</Link>
             <Link href={`/${lang}/vinske-ceste`}>{t.footer.c2l3}</Link>
             <Link href={`/${lang}/dvorci`}>{t.footer.c2l4}</Link>
           </div>
-          <div className="column">
+          <div className="linkColumn">
             <h3>{t.footer.c3t}</h3>
             <Link href={`/${lang}/gastronomija`}>{t.footer.c3l1}</Link>
             <Link href={`/${lang}/digitalni-nomadi`}>{t.footer.c3l2}</Link>
@@ -101,7 +101,7 @@ const Footer: React.FC<FooterProps> = async ({ params: { lang } }) => {
               {t.footer.c3l3}
             </Link>
           </div>
-          <div className="column">
+          <div className="linkColumn">
             <h3>{t.footer.c4t}</h3>
             <div className="row">
               <Link
