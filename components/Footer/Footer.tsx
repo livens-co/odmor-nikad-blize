@@ -129,7 +129,7 @@ const Footer: React.FC<FooterProps> = async ({ params: { lang } }) => {
           </div>
         </div>
       </div>
-      {/* <div className="copy">
+      <div className="copy">
         <div className="inner">
           <p>2024 &copy; Turistička zajednica Zagrebačke županije</p>
           <p>
@@ -139,7 +139,7 @@ const Footer: React.FC<FooterProps> = async ({ params: { lang } }) => {
             </Link>
           </p>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

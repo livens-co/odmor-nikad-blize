@@ -165,6 +165,7 @@
       padding: 2rem;
 
       .links {
+        flex: unset;
         display: grid;
         grid-template-columns: 1fr 1fr;
       }
