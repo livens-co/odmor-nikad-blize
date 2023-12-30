@@ -33,7 +33,6 @@
   
       .houseContainer {
         width: calc(100% - 4rem);
-        // max-width: 36rem;
         position: relative;
         display: flex;
         overflow-y: scroll;
@@ -103,4 +102,19 @@
         }
       }
     }
+  }
+
+  @media screen and (max-width: 450px) {
+.housesCarousel{
+  .housesCarouselInner {
+
+    button{
+      display: none;
+    }
+
+    .houseContainer{
+      width: 100%;
+    }
+  }
+}
   }

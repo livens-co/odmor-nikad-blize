@@ -8,6 +8,7 @@ import Image from "next/image";
 import Gallery from "@/components/Gallery/Gallery";
 import { getDictionary } from "@/lib/dictionary";
 import getArticles from "@/sanity/actions/get-articles";
+import getRandomSubset from "@/lib/getRandomSubset";
 
 interface ArticlePageProps {
   params: {
@@ -30,7 +31,9 @@ const ArticlePage: React.FC<ArticlePageProps> = async ({
   const t: Dictionary = await pageFunction();
 
   const article = await getArticle(lang, slug);
-  const articles = await getArticles(lang);
+
+  const allArticles = await getArticles(lang);
+  const randomArticles = getRandomSubset(allArticles, 2);
 
   return (
     <div className="articlePage">
@@ -47,9 +50,9 @@ const ArticlePage: React.FC<ArticlePageProps> = async ({
             alt={article?.title}
           />
         </div>
-        
+
         <div className="line" />
-        
+
         <article>
           <PortableText
             value={article?.content}
@@ -74,30 +77,28 @@ const ArticlePage: React.FC<ArticlePageProps> = async ({
           <div className="featuredArticles">
             <h1>{t.articlePage.featured}</h1>
             <div className="articles">
-              {articles
-                .map((a) => (
-                  <div className="articleCard" key={a.slug}>
-                    <Link
-                      href={`/${lang}/zanimljivosti/${a.slug}`}
-                      className="articleImage"
-                    >
-                      <Image
-                        src={a.headerImage}
-                        alt={a.title}
-                        width={356}
-                        height={150}
-                        priority
-                      />
-                    </Link>
-                    <Link
-                      href={`/${lang}/zanimljivosti/${a.slug}`}
-                      className="articleTitle"
-                    >
-                      <h3>{a.title}</h3>
-                    </Link>
-                  </div>
-                ))
-                .slice(0, 2)}
+              {randomArticles.map((a) => (
+                <div className="articleCard" key={a.slug}>
+                  <Link
+                    href={`/${lang}/zanimljivosti/${a.slug}`}
+                    className="articleImage"
+                  >
+                    <Image
+                      src={a.headerImage}
+                      alt={a.title}
+                      width={356}
+                      height={150}
+                      priority
+                    />
+                  </Link>
+                  <Link
+                    href={`/${lang}/zanimljivosti/${a.slug}`}
+                    className="articleTitle"
+                  >
+                    <h3>{a.title}</h3>
+                  </Link>
+                </div>
+              ))}
             </div>
           </div>
         </div>

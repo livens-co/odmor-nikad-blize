@@ -15,6 +15,7 @@ import { getHouses } from "@/sanity/actions/get-houses";
 import lines from "../../../../public/assets/containerLines.svg";
 import Image from "next/image";
 import { getDictionary } from "@/lib/dictionary";
+import getRandomSubset from "@/lib/getRandomSubset";
 
 export const revalidate = 0;
 
@@ -40,7 +41,9 @@ const HousePage: React.FC<HousePageProps> = async ({
   const t: Dictionary = await pageFunction();
 
   const houseData: House = await getHouse(lang, slug);
-  const houses = (await getHouses(lang)).splice(3, 9);
+
+  const allHouses = await getHouses(lang);
+  const randomHouses = getRandomSubset(allHouses, 5);
 
   if (!houseData) {
     return (
@@ -122,7 +125,7 @@ const HousePage: React.FC<HousePageProps> = async ({
         </div>
         <div className="featuredHouses">
           <h2>{t.housePage.featured}</h2>
-          <HouseCarousel houses={houses} lang={lang} />
+          <HouseCarousel houses={randomHouses} lang={lang} />
         </div>
       </main>
     </div>

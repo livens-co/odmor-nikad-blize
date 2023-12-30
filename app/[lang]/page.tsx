@@ -17,6 +17,7 @@ import digitalniNomadi from "../../public/assets/digitalniNomadi.jpeg";
 import logoWhite from "../../public/logo/logo-bijeli.svg";
 import samobor from "../../public/assets/gradovi/samobor.webp";
 import gastronomy from '../../public/assets/gastronomy.jpeg'
+import getRandomSubset from "@/lib/getRandomSubset";
 
 export const revalidate = 0;
 
@@ -51,7 +52,9 @@ const HomePage: React.FC<HomePageProps> = async ({ params: { lang } }) => {
   const pageFunction = await getDictionary(lang);
   const t: Dictionary = await pageFunction();
 
-  const houses = (await getHouses(lang)).splice(0, 8);
+  const allHouses = await getHouses(lang);
+  const randomHouses = getRandomSubset(allHouses, 8);
+
   const wineRoads = await getWineRoads(lang);
   const articles = await getArticles(lang);
 
@@ -113,7 +116,7 @@ const HomePage: React.FC<HomePageProps> = async ({ params: { lang } }) => {
         <section>
           <h2>{t.homePage.t1}</h2>
          
-          <HouseCarousel houses={houses} lang={lang} />
+          <HouseCarousel houses={randomHouses} lang={lang} />
           <Link href={`/${lang}/kuce-za-odmor`} className="button">
             {t.homePage.btn}
           </Link>

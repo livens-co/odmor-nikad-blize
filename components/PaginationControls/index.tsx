@@ -1,4 +1,4 @@
-"use client";
+"use client"; 
 
 import { Locale } from "@/i18n.config";
 import { useRouter, useSearchParams } from "next/navigation";

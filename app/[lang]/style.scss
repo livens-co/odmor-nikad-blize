@@ -622,6 +622,7 @@
     }
 
     main {
+      padding: 2rem 1rem;
       section {
         .articles {
           flex-direction: column;
@@ -640,21 +641,20 @@
         }
 
         .experience {
-          // gap: 3rem;
           grid-template-columns: 1fr;
 
           .experienceCard {
-            width: 22rem;
-            height: 18rem;
+            width: 20rem;
+            height: 17rem;
 
             .imageContainer {
-              width: 20rem;
-              height: 13rem;
+              width: 18rem;
+              height: 12rem;
             }
 
             .titleContainer {
-              width: 20rem;
-              height: 14rem;
+              width: 19rem;
+              height: 13rem;
             }
           }
         }

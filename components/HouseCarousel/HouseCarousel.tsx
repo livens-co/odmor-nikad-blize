@@ -8,10 +8,8 @@ import ArrowBackIosNewRoundedIcon from "@mui/icons-material/ArrowBackIosNewRound
 import ArrowForwardIosRoundedIcon from "@mui/icons-material/ArrowForwardIosRounded";
 import { useRef } from "react";
 import Link from "next/link";
-import { Locale } from "@/i18n.config";
 
 interface House {
-  //   _id: string;
   slug: string;
   name: string;
   images: string[];
