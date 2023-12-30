@@ -41,7 +41,7 @@ const Footer: React.FC<FooterProps> = async ({ params: { lang } }) => {
 
   return (
     <div className="footer">
-      <div className="footerInnerContainer">
+      <footer>
         <div className="logo">
           <Link
             href="https://www.croatia.hr/"
@@ -128,7 +128,7 @@ const Footer: React.FC<FooterProps> = async ({ params: { lang } }) => {
             </div>
           </div>
         </div>
-      </div>
+      </footer>
       <div className="copy">
         <div className="inner">
           <p>2024 &copy; Turistička zajednica Zagrebačke županije</p>
