@@ -37,21 +37,21 @@
       padding: 3rem 2rem;
       // background-color: var(--secondary);
       background: rgb(13, 141, 96);
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(13, 141, 96, 1) 30%,
-    rgba(14, 135, 139, 1) 95%
-  );
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(13, 141, 96, 1) 30%,
-    rgba(14, 135, 139, 1) 95%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(13, 141, 96, 1) 30%,
-    rgba(14, 135, 139, 1) 95%
-  );
+      background: -moz-linear-gradient(
+        90deg,
+        rgba(13, 141, 96, 1) 30%,
+        rgba(14, 135, 139, 1) 95%
+      );
+      background: -webkit-linear-gradient(
+        90deg,
+        rgba(13, 141, 96, 1) 30%,
+        rgba(14, 135, 139, 1) 95%
+      );
+      background: linear-gradient(
+        90deg,
+        rgba(13, 141, 96, 1) 30%,
+        rgba(14, 135, 139, 1) 95%
+      );
       border-radius: 1rem;
       display: flex;
       flex-direction: column;
@@ -62,7 +62,7 @@
 
       p {
         font-size: 1.25rem;
-        font-weight: 400;
+        font-weight: 300;
         text-align: center;
         color: var(--white);
         line-height: 1.6;
@@ -85,8 +85,9 @@
       }
     }
 
-    .textCenter{
-      
+    .textCenter {
+      font-weight: 300;
+      line-height: 1.6;
     }
 
     .location {
@@ -125,7 +126,7 @@
           flex-direction: column;
           gap: 1rem;
 
-          p{
+          p {
             line-height: 1.6;
             font-weight: 300;
           }
@@ -145,34 +146,113 @@
         }
       }
 
-      .borderContainer{
+      .borderContainer {
         width: 100%;
+        height: fit-content;
+        padding: 3rem 2rem;
+        // background-color: var(--secondary);
+        border: 0.1em solid var(--secondary);
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        overflow: hidden;
+        position: relative;
+        gap: 1rem;
+
+        h3 {
+          font-weight: 400;
+          font-size: 1.15rem;
+        }
+
+        p {
+          font-size: 1rem;
+          font-weight: 300;
+          text-align: start;
+          // color: var(--white);
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .dayInPage {
+    padding-bottom: 2rem;
+
+    header {
+      min-height: 5rem;
+      line-height: 1.2;
+
+      // h1 {
+      //   font-weight: 400;
+      //   font-size: 2rem;
+      //   text-transform: uppercase;
+      // }
+    }
+
+    main {
+      gap: 4rem;
+
+      .textContainer {
+        padding: 2rem 1rem;
+
+        p {
+          line-height: 1.4;
+          font-size: 1.15rem;
+        }
+      }
+
+      .location {
+        gap: 2rem;
+
+        h2 {
+          font-size: 1.5rem;
+          line-height: 1.4;
+        }
+
+        .row {
+          flex-direction: column;
+        }
+
+        .borderContainer {
+          padding: 2rem 1rem;
+
+          h3 {
+            font-size: 1.15rem;
+          }
+
+          p {
+            font-size: 1rem;
+            line-height: 1.4;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dayInPage {
+    padding-bottom: 2rem;
+
+    header {
+      padding: 0 1rem 0 5rem;
       height: fit-content;
-      padding: 3rem 2rem;
-      // background-color: var(--secondary);
-      border: 0.1em solid var(--secondary);
-      border-radius: 1rem;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
-      overflow: hidden;
-      position: relative;
-      gap: 1rem;
+      line-height: 1.2;
 
-      h3 {
+      h1 {
         font-weight: 400;
-        font-size: 1.15rem;
+        font-size: 1.75rem;
+        text-transform: uppercase;
       }
+    }
 
-      p {
-        font-size: 1rem;
-        font-weight: 300;
-        text-align: start;
-        // color: var(--white);
-        line-height: 1.6;
-      }
-      }
+    main {
+      gap: 4rem;
+      padding: 2rem 1rem;
     }
   }
 }

@@ -1,5 +1,4 @@
 .castlesPage {
-  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -144,6 +143,92 @@
           font-weight: 300;
           text-align: center;
           line-height: 1.6;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .castlesPage {
+    padding-bottom: 2rem;
+
+    header {
+      min-height: 5rem;
+      line-height: 1.2;
+    }
+
+    main {
+      gap: 4rem;
+
+      .castle {
+        .info {
+          flex-direction: column;
+          gap: 2rem;
+
+          .image {
+            flex: unset;
+          }
+
+          .infoCard {
+            flex: unset;
+            height: fit-content;
+            padding: 2rem;
+          }
+        }
+
+        .textContainer {
+          margin-top: 0;
+          padding: 2rem;
+
+          p{
+            text-align: start;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .castlesPage {
+    padding-bottom: 2rem;
+
+    header {
+      padding: 0 1rem 0 5rem;
+
+      h1 {
+        font-size: 1.75rem;
+        line-height: 1.2;
+      }
+    }
+
+    main {
+      padding: 2rem 1rem;
+     
+
+      .castle {
+
+        h2 {
+          padding: 0 1rem 0 0;
+          font-size: 1.5rem;
+          // line-height: 1.4;
+        }
+        .info {
+         
+
+          
+
+          .infoCard {
+            
+            padding: 2rem 1rem;
+          }
+        }
+
+        .textContainer {
+          padding: 2rem 1rem;
+
+          
         }
       }
     }
