@@ -38,7 +38,7 @@ const ArticlePage: React.FC<ArticlePageProps> = async ({
         <h1>{article?.title}</h1>
       </header>
       <main>
-        <div className="featuredImage">
+        <div className="headerImage">
           <Image
             priority
             src={article?.headerImage}
@@ -58,6 +58,7 @@ const ArticlePage: React.FC<ArticlePageProps> = async ({
         </article>
 
         {/* GALLERY */}
+
         {article?.images === null ? null : (
           <div className="galleryContainer">
             <Gallery images={article?.images} />

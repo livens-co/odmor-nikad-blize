@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   gap: 4rem;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
 
   header {
     min-height: 5rem;
@@ -17,6 +17,7 @@
       font-weight: 400;
       font-size: 2rem;
       text-transform: uppercase;
+      line-height: 1.2;
     }
   }
 
@@ -29,7 +30,7 @@
     padding: 2rem;
     gap: 4rem;
 
-    .featuredImage {
+    .headerImage {
       width: 100%;
       max-width: 40rem;
       height: 25rem;
@@ -168,6 +169,85 @@
               font-weight: 500;
               font-size: 1.15rem;
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .articlePage {
+    gap: 2rem;
+    padding-bottom: 2rem;
+
+    main {
+      gap: 2rem;
+
+      .articleFooter {
+        gap: 3rem;
+
+        .featuredArticles {
+          gap: 3rem;
+
+          h1 {
+            font-size: 1.5rem;
+          }
+
+          .articles {
+            justify-content: center;
+            gap: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .articlePage {
+    header {
+      min-height: 5rem;
+      padding: 0 1rem 0 5rem;
+
+      h1 {
+        font-size: 1.25rem;
+        line-height: 1.2;
+      }
+    }
+
+    main {
+      padding: 2rem 1rem;
+
+      .headerImage {
+        height: unset;
+
+        img {
+          aspect-ratio: 16/9;
+        }
+      }
+
+      article {
+        p {
+          line-height: 1.4;
+        }
+
+        .rtcImage {
+          max-width: 95% !important;
+          align-self: center !important;
+        }
+      }
+
+      // .galleryContainer {
+      //   width: 100%;
+
+        
+      // }
+
+      .articleFooter {
+        .featuredArticles {
+          h1 {
+            font-size: 1.25rem;
           }
         }
       }
