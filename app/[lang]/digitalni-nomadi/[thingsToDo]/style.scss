@@ -28,5 +28,45 @@
     max-width: 1100px;
     padding: 2rem;
     gap: 4rem;
+
+    .text {
+      p {
+        line-height: 1.6;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .thingToDoPage {
+    padding-bottom: 2rem;
+    gap: 2rem;
+
+    header {
+      padding: 0 1rem 0 5rem;
+
+      h1 {
+        font-size: 1.75rem;
+        line-height: 1.2;
+      }
+    }
+
+    main {
+      padding: 2rem 1rem;
+      gap: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .thingToDoPage {
+    header {
+      min-height: 5rem;
+      line-height: 1.2;
+    }
+
+    main {
+      gap: 2rem;
+    }
   }
 }
