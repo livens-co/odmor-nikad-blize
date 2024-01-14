@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Locale, i18n } from "@/i18n.config";
+import { Analytics } from '@vercel/analytics/react';
 
 import { Poppins } from "next/font/google";
 import Navbar from "@/components/Navbar/Navbar";
@@ -51,6 +52,7 @@ export default function RootLayout({
             lang: params.lang,
           }}
         />
+        <Analytics />
       </body>
     </html>
   );
