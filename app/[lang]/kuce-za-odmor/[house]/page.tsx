@@ -16,6 +16,7 @@ import lines from "../../../../public/assets/containerLines.svg";
 import Image from "next/image";
 import { getDictionary } from "@/lib/dictionary";
 import getRandomSubset from "@/lib/getRandomSubset";
+import Link from "next/link";
 
 export const revalidate = 0;
 
@@ -100,10 +101,10 @@ const HousePage: React.FC<HousePageProps> = async ({
               </div>
 
               {houseData.website === null ? null : (
-                <a href={houseData?.website} target="_blank">
+                <Link href={houseData?.website} target="_blank">
                   <LanguageRoundedIcon />
                   {t.housePage.web}
-                </a>
+                </Link>
               )}
 
               {houseData.contact === null ? null : (
